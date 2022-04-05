@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1648667048 source:d:\kuliah\semester 2\if2020110 - pratikum algoritma dan pemrograman\final project\lib\sample_header.c
+	<stdio.h>
+	"sample_header.h"
+
+1648666985 d:\kuliah\semester 2\if2020110 - pratikum algoritma dan pemrograman\final project\lib\sample_header.h
+
+1648668170 source:d:\kuliah\semester 2\if2020110 - pratikum algoritma dan pemrograman\final project\main.c
+	<stdio.h>
+	"lib/sample_header.h"
+
+1550695352 d:\kuliah\semester 2\if2020110 - pratikum algoritma dan pemrograman\final project\lib\sfml\graphics.h
+	<SFML/Window.h>
+	<SFML/Graphics/BlendMode.h>
+	<SFML/Graphics/CircleShape.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/ConvexShape.h>
+	<SFML/Graphics/Font.h>
+	<SFML/Graphics/FontInfo.h>
+	<SFML/Graphics/Glyph.h>
+	<SFML/Graphics/Image.h>
+	<SFML/Graphics/PrimitiveType.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/RectangleShape.h>
+	<SFML/Graphics/RenderStates.h>
+	<SFML/Graphics/RenderTexture.h>
+	<SFML/Graphics/RenderWindow.h>
+	<SFML/Graphics/Shader.h>
+	<SFML/Graphics/Shape.h>
+	<SFML/Graphics/Sprite.h>
+	<SFML/Graphics/Text.h>
+	<SFML/Graphics/Texture.h>
+	<SFML/Graphics/Transform.h>
+	<SFML/Graphics/Transformable.h>
+	<SFML/Graphics/Vertex.h>
+	<SFML/Graphics/VertexArray.h>
+	<SFML/Graphics/VertexBuffer.h>
+	<SFML/Graphics/View.h>
+
+1649154376 source:d:\github\fp prak lapro\lib\sample_header.c
+	<stdio.h>
+	"sample_header.h"
+
+1649154376 d:\github\fp prak lapro\lib\sample_header.h
+

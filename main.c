@@ -9,7 +9,7 @@ int main(){
         printf("2. Edit Data Buku\n");
         printf("3. Hapus Data\n");
         printf("4. Lihat Data\n");
-        printf("Keluar Program\n");
+        printf("5. Keluar Program\n");
     }
     while (0);
     return 0;

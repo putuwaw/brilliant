@@ -43,3 +43,12 @@
 
 1649154376 d:\github\fp prak lapro\lib\sample_header.h
 
+1649205480 source:d:\github\final-project-praktikum-alpro\lib\sample_header.c
+	<stdio.h>
+	"sample_header.h"
+
+1649205480 d:\github\final-project-praktikum-alpro\lib\sample_header.h
+
+1649205480 source:d:\github\final-project-praktikum-alpro\main.c
+	<stdio.h>
+

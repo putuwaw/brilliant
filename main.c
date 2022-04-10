@@ -1,8 +1,7 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <stdbool.h>
+#include "crud.h"
 
 int main(){
+    head = NULL;
     int pilihan, p2, p3;
     bool repeat, r1, r2;
     do{
@@ -27,11 +26,12 @@ int main(){
             case 1:
                 do{
                     r1 = true;
-                    system("cls");
+                    clearScreen();
                     printf("0. Kembali\n");
                     printf("1. Lanjutkan Menambah Buku?\n");
                     printf("Pilihan Anda: ");
                     scanf("%d", &p2);
+                    fflush(stdin);
                     switch (p2){
                         case 0:
                             // BACK
@@ -39,12 +39,13 @@ int main(){
                             break;
                         case 1:
                             // ADDING BOOK FUNCTION
-                            printf("add book\n");
-                            system("pause");
+                            b = malloc(sizeof(book));
+                            tambah_data(b);
+                            pauseScreen();
                             break;
                         default:
                             printf("Input harus 0-1!\n");
-                            system("pause");
+                            pauseScreen();
                     }
                 } while (r1);
                 break;

@@ -43,6 +43,14 @@
 			<Add library="csfml-window-2" />
 			<Add directory="C:/Program Files/CodeBlocks/csfml/bin" />
 		</Linker>
+		<Unit filename="lib/create.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/create.h" />
+		<Unit filename="lib/crud.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/crud.h" />
 		<Unit filename="lib/sample_header.c">
 			<Option compilerVar="CC" />
 		</Unit>

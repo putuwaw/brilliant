@@ -82,24 +82,23 @@ int main(){
             case 3:
                 do{
                     r1 = true;
-                    system("cls");
+                    clearScreen();
                     printf("0. Kembali\n");
                     printf("1. Lanjutkan Hapus Buku?\n");
                     printf("Pilihan Anda: ");
                     scanf("%d", &p2);
+                    fflush(stdin);
                     switch (p2){
                         case 0:
-                            // BACK
                             r1 = false;
                             break;
                         case 1:
-                            // DELETE BOOK FUNCTION
-                            printf("delete book\n");
-                            system("pause");
+                            hapus_data();
+                            pauseScreen();
                             break;
                         default:
                             printf("Input harus 0-1!\n");
-                            system("pause");
+                            pauseScreen();
                     }
                 } while (r1);
                 break;

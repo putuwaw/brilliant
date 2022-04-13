@@ -51,6 +51,14 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lib/crud.h" />
+		<Unit filename="lib/delete.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/delete.h" />
+		<Unit filename="lib/edit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/edit.h" />
 		<Unit filename="lib/sample_header.c">
 			<Option compilerVar="CC" />
 		</Unit>

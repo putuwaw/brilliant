@@ -33,6 +33,7 @@ struct tm *timeInfo;
 // LOCAL HEADER
 #include "create.h"
 #include "edit.h"
+#include "delete.h"
 
 // FUNCTIONS
 void clearScreen();

@@ -1,6 +1,7 @@
 #include "crud.h"
 
 int main(){
+    getDataFromFile();
     int pilihan, p2, p3;
     bool repeat, r1, r2;
     do{
@@ -60,6 +61,7 @@ int main(){
                     printf("1. Lanjutkan Edit Buku?\n");
                     printf("Pilihan Anda: ");
                     scanf("%d", &p2);
+                    fflush(stdin);
                     switch (p2){
                         case 0:
                             // BACK
@@ -68,6 +70,7 @@ int main(){
                         case 1:
                             // EDIT BOOK FUNCTION
                             printf("edit book\n");
+                            edit_data();
                             system("pause");
                             break;
                         default:
@@ -118,6 +121,11 @@ int main(){
                         case 1:
                             // NORMAL VIEW
                             printf("normal view\n");
+                            book *curr = head;
+                            while(curr!=NULL){
+                                printf("%s|%s|%d|%s|%s|%s\n", curr->name, curr->author, curr->year, curr->category, curr->created, curr->modified);
+                                curr=curr->next;
+                            }
                             system("pause");
                             break;
                         case 2:

@@ -793,3 +793,385 @@
 1649810281 source:d:\kuliah\tes github\final-project-praktikum-alpro\main.c
 	"crud.h"
 
+1649831004 source:d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\create.c
+	"create.h"
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\create.h
+	"crud.h"
+
+1649831315 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\crud.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+	<time.h>
+	"SFML/Graphics.h"
+	"SFML/Window.h"
+	"create.h"
+	"edit.h"
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\graphics.h
+	<SFML/Window.h>
+	<SFML/Graphics/BlendMode.h>
+	<SFML/Graphics/CircleShape.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/ConvexShape.h>
+	<SFML/Graphics/Font.h>
+	<SFML/Graphics/FontInfo.h>
+	<SFML/Graphics/Glyph.h>
+	<SFML/Graphics/Image.h>
+	<SFML/Graphics/PrimitiveType.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/RectangleShape.h>
+	<SFML/Graphics/RenderStates.h>
+	<SFML/Graphics/RenderTexture.h>
+	<SFML/Graphics/RenderWindow.h>
+	<SFML/Graphics/Shader.h>
+	<SFML/Graphics/Shape.h>
+	<SFML/Graphics/Sprite.h>
+	<SFML/Graphics/Text.h>
+	<SFML/Graphics/Texture.h>
+	<SFML/Graphics/Transform.h>
+	<SFML/Graphics/Transformable.h>
+	<SFML/Graphics/Vertex.h>
+	<SFML/Graphics/VertexArray.h>
+	<SFML/Graphics/VertexBuffer.h>
+	<SFML/Graphics/View.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\window.h
+	<SFML/System.h>
+	<SFML/Window/Clipboard.h>
+	<SFML/Window/Context.h>
+	<SFML/Window/Cursor.h>
+	<SFML/Window/Event.h>
+	<SFML/Window/Joystick.h>
+	<SFML/Window/JoystickIdentification.h>
+	<SFML/Window/Keyboard.h>
+	<SFML/Window/Mouse.h>
+	<SFML/Window/Sensor.h>
+	<SFML/Window/Touch.h>
+	<SFML/Window/VideoMode.h>
+	<SFML/Window/Window.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\system.h
+	<SFML/Config.h>
+	<SFML/System/Clock.h>
+	<SFML/System/InputStream.h>
+	<SFML/System/Mutex.h>
+	<SFML/System/Sleep.h>
+	<SFML/System/Thread.h>
+	<SFML/System/Time.h>
+	<SFML/System/Vector2.h>
+	<SFML/System/Vector3.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\config.h
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\system\clock.h
+	<SFML/System/Export.h>
+	<SFML/System/Time.h>
+	<SFML/System/Types.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\system\export.h
+	<SFML/Config.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\system\time.h
+	<SFML/System/Export.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\system\types.h
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\system\inputstream.h
+	<SFML/System/Export.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\system\mutex.h
+	<SFML/System/Export.h>
+	<SFML/System/Types.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\system\sleep.h
+	<SFML/System/Export.h>
+	<SFML/System/Time.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\system\thread.h
+	<SFML/System/Export.h>
+	<SFML/System/Types.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\system\vector2.h
+	<SFML/System/Export.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\system\vector3.h
+	<SFML/System/Export.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\window\clipboard.h
+	<SFML/Window/Export.h>
+	<SFML/Window/Types.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\window\export.h
+	<SFML/Config.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\window\types.h
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\window\context.h
+	<SFML/Window/Export.h>
+	<SFML/Window/Types.h>
+	<SFML/Window/Window.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\window\window.h
+	<SFML/Window/Export.h>
+	<SFML/Window/Event.h>
+	<SFML/Window/VideoMode.h>
+	<SFML/Window/WindowHandle.h>
+	<SFML/Window/Types.h>
+	<SFML/System/Vector2.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\window\event.h
+	<SFML/Window/Export.h>
+	<SFML/Window/Joystick.h>
+	<SFML/Window/Keyboard.h>
+	<SFML/Window/Mouse.h>
+	<SFML/Window/Sensor.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\window\joystick.h
+	<SFML/Window/Export.h>
+	<SFML/Window/JoystickIdentification.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\window\joystickidentification.h
+	<SFML/Window/Export.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\window\keyboard.h
+	<SFML/Window/Export.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\window\mouse.h
+	<SFML/Window/Export.h>
+	<SFML/Window/Types.h>
+	<SFML/System/Vector2.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\window\sensor.h
+	<SFML/Window/Export.h>
+	<SFML/Window/Types.h>
+	<SFML/System/Vector3.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\window\videomode.h
+	<SFML/Window/Export.h>
+	<stddef.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\window\windowhandle.h
+	<SFML/Window/Export.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\window\cursor.h
+	<SFML/System/Vector2.h>
+	<SFML/Window/Export.h>
+	<SFML/Window/Types.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\window\touch.h
+	<SFML/Window/Export.h>
+	<SFML/Window/Types.h>
+	<SFML/System/Vector2.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\graphics\blendmode.h
+	<SFML/Graphics/Export.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\graphics\export.h
+	<SFML/Config.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\graphics\circleshape.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Transform.h>
+	<SFML/Graphics/Types.h>
+	<SFML/System/Vector2.h>
+	<stddef.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\graphics\color.h
+	<SFML/Graphics/Export.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\graphics\rect.h
+	<SFML/Graphics/Export.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\graphics\transform.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Types.h>
+	<SFML/System/Vector2.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\graphics\types.h
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\graphics\convexshape.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Transform.h>
+	<SFML/Graphics/Types.h>
+	<SFML/System/Vector2.h>
+	<stddef.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\graphics\font.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/FontInfo.h>
+	<SFML/Graphics/Glyph.h>
+	<SFML/Graphics/Types.h>
+	<SFML/System/InputStream.h>
+	<stddef.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\graphics\fontinfo.h
+	<SFML/Graphics/Export.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\graphics\glyph.h
+	<SFML/Graphics/Rect.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\graphics\image.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Types.h>
+	<SFML/System/InputStream.h>
+	<SFML/System/Vector2.h>
+	<stddef.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\graphics\primitivetype.h
+	<SFML/Graphics/Export.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\graphics\rectangleshape.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Transform.h>
+	<SFML/Graphics/Types.h>
+	<SFML/System/Vector2.h>
+	<stddef.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\graphics\renderstates.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/BlendMode.h>
+	<SFML/Graphics/Transform.h>
+	<SFML/Graphics/Types.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\graphics\rendertexture.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Types.h>
+	<SFML/Graphics/PrimitiveType.h>
+	<SFML/Graphics/RenderStates.h>
+	<SFML/Graphics/Vertex.h>
+	<SFML/Window/Window.h>
+	<SFML/System/Vector2.h>
+	<stddef.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\graphics\vertex.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Color.h>
+	<SFML/System/Vector2.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\graphics\renderwindow.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Types.h>
+	<SFML/Graphics/PrimitiveType.h>
+	<SFML/Graphics/RenderStates.h>
+	<SFML/Graphics/Vertex.h>
+	<SFML/Window/Event.h>
+	<SFML/Window/VideoMode.h>
+	<SFML/Window/WindowHandle.h>
+	<SFML/Window/Window.h>
+	<SFML/System/Vector2.h>
+	<stddef.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\graphics\shader.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/Glsl.h>
+	<SFML/Graphics/Transform.h>
+	<SFML/Graphics/Types.h>
+	<SFML/System/InputStream.h>
+	<SFML/System/Vector2.h>
+	<SFML/System/Vector3.h>
+	<stddef.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\graphics\glsl.h
+	<SFML/Graphics/Transform.h>
+	<SFML/Graphics/Color.h>
+	<SFML/System/Vector2.h>
+	<SFML/System/Vector3.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\graphics\shape.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Transform.h>
+	<SFML/Graphics/Types.h>
+	<SFML/System/Vector2.h>
+	<stddef.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\graphics\sprite.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/BlendMode.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Transform.h>
+	<SFML/Graphics/Types.h>
+	<SFML/System/Vector2.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\graphics\text.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Types.h>
+	<SFML/Graphics/Transform.h>
+	<SFML/System/Vector2.h>
+	<stddef.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\graphics\texture.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Types.h>
+	<SFML/Window/Types.h>
+	<SFML/System/InputStream.h>
+	<SFML/System/Vector2.h>
+	<stddef.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\graphics\transformable.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Types.h>
+	<SFML/Graphics/Transform.h>
+	<SFML/System/Vector2.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\graphics\vertexarray.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/PrimitiveType.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Types.h>
+	<SFML/Graphics/Vertex.h>
+	<stddef.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\graphics\vertexbuffer.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/PrimitiveType.h>
+	<SFML/Graphics/Types.h>
+	<SFML/Graphics/Vertex.h>
+	<stddef.h>
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sfml\graphics\view.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Types.h>
+	<SFML/System/Vector2.h>
+
+1649831004 source:d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\crud.c
+	"crud.h"
+
+1649831004 source:d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sample_header.c
+	<stdio.h>
+	"sample_header.h"
+
+1649831004 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\sample_header.h
+
+1649831269 d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\edit.h
+	"crud.h"
+
+1649831777 source:d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\main.c
+	"crud.h"
+
+1649831727 source:d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\edit.c
+	"edit.h"
+

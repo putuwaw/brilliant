@@ -21,6 +21,8 @@ typedef struct book{
 
 book *b, *head;
 
+int totalBook;
+
 time_t rawtime;
 struct tm *timeInfo;
 
@@ -35,5 +37,6 @@ struct tm *timeInfo;
 void clearScreen();
 void pauseScreen();
 char *timeToStr(struct tm *timeInfo);
+void getDataFromFile();
 
 #endif // CRUD_H_INCLUDED

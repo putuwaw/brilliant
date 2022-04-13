@@ -32,6 +32,7 @@ void tambah_data(book *b){
         curr->next = b;
         b->next = NULL;
     }
+    totalBook++;
     // TIME OPERATION
     time(&rawtime);
     timeInfo = localtime(&rawtime);
@@ -39,8 +40,8 @@ void tambah_data(book *b){
     strcpy(b->modified, timeToStr(timeInfo));
     // OUTPUT (OPTIONAL)
     printf("Buku berhasil ditambahkan!\nDetail:\n");
-    printf("%-35s|%-20s|%-5d|%-15s|%15s|%15s\n", b->name, b->author, b->year, b->category, b->created, b->modified);
+    printf("%s|%s|%d|%s|%s|%s\n", b->name, b->author, b->year, b->category, b->created, b->modified);
     // ... FILE OPERATION
-    fprintf(f, "%-35s|%-20s|%-5d|%-15s|%15s|%15s\n", b->name, b->author, b->year, b->category, b->created, b->modified);
+    fprintf(f, "%s|%s|%d|%s|%s|%s\n", b->name, b->author, b->year, b->category, b->created, b->modified);
     fclose(f);
 }

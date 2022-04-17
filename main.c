@@ -6,7 +6,7 @@ int main(){
     bool repeat, r1, r2;
     do{
         repeat = true;
-        system("cls");
+        clearScreen();
         printf("||====================================================================||\n");
         printf("||============================ Main Menu =============================||\n");
         printf("||====================================================================||\n");
@@ -56,7 +56,7 @@ int main(){
             case 2:
                 do{
                     r1 = true;
-                    system("cls");
+                    clearScreen();
                     printf("0. Kembali\n");
                     printf("1. Lanjutkan Edit Buku?\n");
                     printf("Pilihan Anda: ");
@@ -64,18 +64,15 @@ int main(){
                     fflush(stdin);
                     switch (p2){
                         case 0:
-                            // BACK
                             r1 = false;
                             break;
                         case 1:
-                            // EDIT BOOK FUNCTION
-                            printf("edit book\n");
                             edit_data();
-                            system("pause");
+                            pauseScreen();
                             break;
                         default:
                             printf("Input harus 0-1!\n");
-                            system("pause");
+                            pauseScreen();
                     }
                 } while (r1);
                 break;
@@ -105,27 +102,21 @@ int main(){
             case 4:
                 do{
                     r1 = true;
-                    system("cls");
+                    clearScreen();
                     printf("0. Kembali\n");
                     printf("1. Lihat Biasa\n");
                     printf("2. Lihat Data Terurut\n");
                     printf("3. Cari Buku\n");
                     printf("Pilihan Anda: ");
                     scanf("%d", &p2);
+                    fflush(stdin);
                     switch (p2){
                         case 0:
-                            // BACK
                             r1 = false;
                             break;
                         case 1:
-                            // NORMAL VIEW
-                            printf("normal view\n");
-                            book *curr = head;
-                            while(curr!=NULL){
-                                printf("%s|%s|%d|%s|%s|%s\n", curr->name, curr->author, curr->year, curr->category, curr->created, curr->modified);
-                                curr=curr->next;
-                            }
-                            system("pause");
+                            lihat_data_normal();
+                            pauseScreen();
                             break;
                         case 2:
                             do{
@@ -213,7 +204,7 @@ int main(){
                             break;
                         default:
                             printf("Input harus 0-3!\n");
-                            system("pause");
+                            pauseScreen();
                     }
                 } while (r1);
                 break;

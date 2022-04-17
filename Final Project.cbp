@@ -63,6 +63,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lib/sample_header.h" />
+		<Unit filename="lib/view.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/view.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

@@ -8,34 +8,41 @@ void lihat_data_normal(){
     sfFont *font;
     sfText *textNum, *textAuthor, *textName, *textCategory, *textCreated, *textModified, *textYear;
     sfEvent event;
+    sfVector2i mousePos;
 
     // LOCAL VARIABLE
-    int countMaxBook = totalBook;
-    int maxPage = 0;
+    book *temp;
+    int countMaxBook, maxPage, page, maxNum, minNum, counterNum;
+    countMaxBook = totalBook;
+    maxPage = 0;
     while(countMaxBook > 0){
         countMaxBook -= 5;
         maxPage++;
     }
-    int page = 1;
-    int maxNum = page * 5;
-    int minNum = maxNum - 4;
-    int counterNum;
-    book *temp;
+    page = 1;
+    maxNum = page * 5;
+    minNum = maxNum - 4;
 
     // TEXTURE AND SPRITE
     texture = sfTexture_createFromFile("assets/image/View-Blank Design.png", NULL);
-    sprite = sfSprite_create();
-    sfSprite_setTexture(sprite, texture, sfTrue);
 
     // FONT
     font = sfFont_createFromFile("assets/font/Roboto-Regular.ttf");
 
     // WINDOW
-    sfVideoMode mode = {1280, 720, 32};
+    sfVideoMode mode = {1280, 720, 30};
     window = sfRenderWindow_create(mode, "Brilliant", sfResize | sfClose, NULL);
 
+    // FRAME LIMIT
+    sfRenderWindow_setFramerateLimit(window, 30);
+
     while (sfRenderWindow_isOpen(window)){
-    sfVector2i mousePos = sfMouse_getPositionRenderWindow(window);
+    // SPRITE
+    sprite = sfSprite_create();
+    sfSprite_setTexture(sprite, texture, sfTrue);
+    // MOUSE POSITION
+    mousePos = sfMouse_getPositionRenderWindow(window);
+        // EVENT
         while (sfRenderWindow_pollEvent(window, & event)) {
             if (event.type == sfEvtClosed){
                 sfRenderWindow_close(window);
@@ -88,6 +95,7 @@ void lihat_data_normal(){
                 sfText_setColor(textNum, sfBlack);
                 strNumberPos.y += 113;
                 sfRenderWindow_drawText(window, textNum, NULL);
+                sfText_destroy(textNum);
                 counterNum++;
             }
 
@@ -113,6 +121,7 @@ void lihat_data_normal(){
                 sfText_setColor(textAuthor, sfBlack);
                 authorPos.y += 113;
                 sfRenderWindow_drawText(window, textAuthor, NULL);
+                sfText_destroy(textAuthor);
                 temp = temp->next;
                 counterNum++;
                 if (temp == NULL){
@@ -142,6 +151,7 @@ void lihat_data_normal(){
                 sfText_setColor(textName, sfBlack);
                 namePos.y += 113;
                 sfRenderWindow_drawText(window, textName, NULL);
+                sfText_destroy(textName);
                 temp = temp->next;
                 counterNum++;
                 if (temp == NULL){
@@ -171,6 +181,7 @@ void lihat_data_normal(){
                 sfText_setColor(textCategory, sfBlack);
                 categoryPos.y += 113;
                 sfRenderWindow_drawText(window, textCategory, NULL);
+                sfText_destroy(textCategory);
                 temp = temp->next;
                 counterNum++;
                 if (temp == NULL){
@@ -201,6 +212,7 @@ void lihat_data_normal(){
                 sfText_setColor(textYear, sfBlack);
                 yearPos.y += 113;
                 sfRenderWindow_drawText(window, textYear, NULL);
+                sfText_destroy(textYear);
                 temp = temp->next;
                 counterNum++;
                 if (temp == NULL){
@@ -230,6 +242,7 @@ void lihat_data_normal(){
                 sfText_setColor(textCreated, sfBlack);
                 createdPos.y += 113;
                 sfRenderWindow_drawText(window, textCreated, NULL);
+                sfText_destroy(textCreated);
                 temp = temp->next;
                 counterNum++;
                 if (temp == NULL){
@@ -259,6 +272,7 @@ void lihat_data_normal(){
                 sfText_setColor(textModified, sfBlack);
                 modifiedPos.y += 113;
                 sfRenderWindow_drawText(window, textModified, NULL);
+                sfText_destroy(textModified);
                 temp = temp->next;
                 counterNum++;
                 if (temp == NULL){
@@ -268,5 +282,14 @@ void lihat_data_normal(){
         }
         // UPDATE WINDOW
         sfRenderWindow_display(window);
+
+        // CLEAN UP
+        sfSprite_destroy(sprite);
     }
+    // OTHER CLEAN UP
+    sfFont_destroy(font);
+    sfRenderWindow_destroy(window);
+    sfTexture_destroy(texture);
+    free(temp);
+    temp = NULL;
 }

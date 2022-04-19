@@ -26,6 +26,16 @@ char *timeToStr(struct tm *timeInfo){
             1900 + timeInfo->tm_year);
     return timeResult;
 }
+char *yearToStr(int year){
+    static char yearResult[7];
+    sprintf(yearResult, "- %d", year);
+    return yearResult;
+}
+char *numToStr(int num){
+    static char strResult[7];
+    sprintf(strResult, "%d", num);
+    return strResult;
+}
 void getDataFromFile(){
 
     int tempYear = 0, counter = 0, section = 0;
@@ -98,4 +108,3 @@ void getDataFromFile(){
         }
     }
 }
-

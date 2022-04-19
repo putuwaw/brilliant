@@ -34,11 +34,14 @@ struct tm *timeInfo;
 #include "create.h"
 #include "edit.h"
 #include "delete.h"
+#include "view.h"
 
 // FUNCTIONS
 void clearScreen();
 void pauseScreen();
 char *timeToStr(struct tm *timeInfo);
+char *yearToStr(int year);
+char *numToStr(int num);
 void getDataFromFile();
 
 #endif // CRUD_H_INCLUDED

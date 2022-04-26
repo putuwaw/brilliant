@@ -8,9 +8,9 @@ int main(){
         repeat = true;
         clearScreen();
         printf("|-------------------------------------------------------------------|\n");
-        printf("|			  * BRILLIANT *                             |\n");
-        printf("|	Brilliant adalah aplikasi berbasis console dengan           |\n");
-        printf("|	    fitur GUI yang mampu mengolah data buku                 |\n");
+        printf("|                       * BRILLIANT *                               |\n");
+        printf("|        Brilliant adalah aplikasi berbasis console dengan          |\n");
+        printf("|           fitur GUI yang mampu mengolah data buku                 |\n");
         printf("|-------------------------------------------------------------------|\n");
         printf("|                                                                   |\n");
         printf("|                                                                   |\n");
@@ -27,9 +27,18 @@ int main(){
         printf("|                                                                   |\n");
         printf("|                                                                   |\n");
         printf("---------------------------------------------------------------------\n");
-        printf("|			Created by: Kelompok 1                      |\n");
-        printf("| Date: 22/04/2022 					Time: 17:28 |\n");
+        printf("|                       Created by: Kelompok 1                      |\n");
+        // Time Calc
+        time(&rawtime);
+        timeInfo = localtime(&rawtime);
+        printf("| Date: %.2d/%.2d/%d                                      Time: %.2d.%.2d |\n",
+        timeInfo->tm_mday, timeInfo->tm_mon+1, timeInfo->tm_year+1900, timeInfo->tm_hour, timeInfo->tm_min);
         printf("=====================================================================\n");
+        // Cursor Position
+        COORD pos;
+        pos.X = 39;
+        pos.Y = 14;
+        SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
         scanf("%d", &pilihan);
         switch (pilihan){
             case 0:

@@ -35,6 +35,7 @@ struct tm *timeInfo;
 #include "edit.h"
 #include "delete.h"
 #include "view.h"
+#include "windows.h"
 
 // FUNCTIONS
 void clearScreen();

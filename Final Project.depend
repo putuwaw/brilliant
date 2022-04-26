@@ -1189,13 +1189,13 @@
 1649841650 source:d:\kuliah\tes github\final-project-praktikum-alpro\lib\delete.c
 	"delete.h"
 
-1650289408 source:d:\kuliah\final project\final-project-praktikum-alpro\lib\create.c
+1650980037 source:d:\kuliah\final project\final-project-praktikum-alpro\lib\create.c
 	"create.h"
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\create.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\create.h
 	"crud.h"
 
-1650289442 d:\kuliah\final project\final-project-praktikum-alpro\lib\crud.h
+1650980885 d:\kuliah\final project\final-project-praktikum-alpro\lib\crud.h
 	<stdio.h>
 	<stdlib.h>
 	<stdbool.h>
@@ -1207,8 +1207,9 @@
 	"edit.h"
 	"delete.h"
 	"view.h"
+	"windows.h"
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics.h
 	<SFML/Window.h>
 	<SFML/Graphics/BlendMode.h>
 	<SFML/Graphics/CircleShape.h>
@@ -1236,7 +1237,7 @@
 	<SFML/Graphics/VertexBuffer.h>
 	<SFML/Graphics/View.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window.h
 	<SFML/System.h>
 	<SFML/Window/Clipboard.h>
 	<SFML/Window/Context.h>
@@ -1251,7 +1252,7 @@
 	<SFML/Window/VideoMode.h>
 	<SFML/Window/Window.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\system.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\system.h
 	<SFML/Config.h>
 	<SFML/System/Clock.h>
 	<SFML/System/InputStream.h>
@@ -1262,57 +1263,57 @@
 	<SFML/System/Vector2.h>
 	<SFML/System/Vector3.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\config.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\config.h
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\system\clock.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\system\clock.h
 	<SFML/System/Export.h>
 	<SFML/System/Time.h>
 	<SFML/System/Types.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\system\export.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\system\export.h
 	<SFML/Config.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\system\time.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\system\time.h
 	<SFML/System/Export.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\system\types.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\system\types.h
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\system\inputstream.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\system\inputstream.h
 	<SFML/System/Export.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\system\mutex.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\system\mutex.h
 	<SFML/System/Export.h>
 	<SFML/System/Types.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\system\sleep.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\system\sleep.h
 	<SFML/System/Export.h>
 	<SFML/System/Time.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\system\thread.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\system\thread.h
 	<SFML/System/Export.h>
 	<SFML/System/Types.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\system\vector2.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\system\vector2.h
 	<SFML/System/Export.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\system\vector3.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\system\vector3.h
 	<SFML/System/Export.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\clipboard.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\clipboard.h
 	<SFML/Window/Export.h>
 	<SFML/Window/Types.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\export.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\export.h
 	<SFML/Config.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\types.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\types.h
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\context.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\context.h
 	<SFML/Window/Export.h>
 	<SFML/Window/Types.h>
 	<SFML/Window/Window.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\window.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\window.h
 	<SFML/Window/Export.h>
 	<SFML/Window/Event.h>
 	<SFML/Window/VideoMode.h>
@@ -1320,57 +1321,57 @@
 	<SFML/Window/Types.h>
 	<SFML/System/Vector2.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\event.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\event.h
 	<SFML/Window/Export.h>
 	<SFML/Window/Joystick.h>
 	<SFML/Window/Keyboard.h>
 	<SFML/Window/Mouse.h>
 	<SFML/Window/Sensor.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\joystick.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\joystick.h
 	<SFML/Window/Export.h>
 	<SFML/Window/JoystickIdentification.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\joystickidentification.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\joystickidentification.h
 	<SFML/Window/Export.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\keyboard.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\keyboard.h
 	<SFML/Window/Export.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\mouse.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\mouse.h
 	<SFML/Window/Export.h>
 	<SFML/Window/Types.h>
 	<SFML/System/Vector2.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\sensor.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\sensor.h
 	<SFML/Window/Export.h>
 	<SFML/Window/Types.h>
 	<SFML/System/Vector3.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\videomode.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\videomode.h
 	<SFML/Window/Export.h>
 	<stddef.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\windowhandle.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\windowhandle.h
 	<SFML/Window/Export.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\cursor.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\cursor.h
 	<SFML/System/Vector2.h>
 	<SFML/Window/Export.h>
 	<SFML/Window/Types.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\touch.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\touch.h
 	<SFML/Window/Export.h>
 	<SFML/Window/Types.h>
 	<SFML/System/Vector2.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\blendmode.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\blendmode.h
 	<SFML/Graphics/Export.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\export.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\export.h
 	<SFML/Config.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\circleshape.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\circleshape.h
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Color.h>
 	<SFML/Graphics/Rect.h>
@@ -1379,21 +1380,21 @@
 	<SFML/System/Vector2.h>
 	<stddef.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\color.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\color.h
 	<SFML/Graphics/Export.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\rect.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\rect.h
 	<SFML/Graphics/Export.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\transform.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\transform.h
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Rect.h>
 	<SFML/Graphics/Types.h>
 	<SFML/System/Vector2.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\types.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\types.h
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\convexshape.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\convexshape.h
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Color.h>
 	<SFML/Graphics/Rect.h>
@@ -1402,7 +1403,7 @@
 	<SFML/System/Vector2.h>
 	<stddef.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\font.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\font.h
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/FontInfo.h>
 	<SFML/Graphics/Glyph.h>
@@ -1410,13 +1411,13 @@
 	<SFML/System/InputStream.h>
 	<stddef.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\fontinfo.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\fontinfo.h
 	<SFML/Graphics/Export.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\glyph.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\glyph.h
 	<SFML/Graphics/Rect.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\image.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\image.h
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Color.h>
 	<SFML/Graphics/Rect.h>
@@ -1425,10 +1426,10 @@
 	<SFML/System/Vector2.h>
 	<stddef.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\primitivetype.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\primitivetype.h
 	<SFML/Graphics/Export.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\rectangleshape.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\rectangleshape.h
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Color.h>
 	<SFML/Graphics/Rect.h>
@@ -1437,13 +1438,13 @@
 	<SFML/System/Vector2.h>
 	<stddef.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\renderstates.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\renderstates.h
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/BlendMode.h>
 	<SFML/Graphics/Transform.h>
 	<SFML/Graphics/Types.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\rendertexture.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\rendertexture.h
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Color.h>
 	<SFML/Graphics/Rect.h>
@@ -1455,12 +1456,12 @@
 	<SFML/System/Vector2.h>
 	<stddef.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\vertex.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\vertex.h
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Color.h>
 	<SFML/System/Vector2.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\renderwindow.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\renderwindow.h
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Color.h>
 	<SFML/Graphics/Rect.h>
@@ -1475,7 +1476,7 @@
 	<SFML/System/Vector2.h>
 	<stddef.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\shader.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\shader.h
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Color.h>
 	<SFML/Graphics/Glsl.h>
@@ -1486,13 +1487,13 @@
 	<SFML/System/Vector3.h>
 	<stddef.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\glsl.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\glsl.h
 	<SFML/Graphics/Transform.h>
 	<SFML/Graphics/Color.h>
 	<SFML/System/Vector2.h>
 	<SFML/System/Vector3.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\shape.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\shape.h
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Color.h>
 	<SFML/Graphics/Rect.h>
@@ -1501,7 +1502,7 @@
 	<SFML/System/Vector2.h>
 	<stddef.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\sprite.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\sprite.h
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/BlendMode.h>
 	<SFML/Graphics/Color.h>
@@ -1510,7 +1511,7 @@
 	<SFML/Graphics/Types.h>
 	<SFML/System/Vector2.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\text.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\text.h
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Color.h>
 	<SFML/Graphics/Rect.h>
@@ -1519,7 +1520,7 @@
 	<SFML/System/Vector2.h>
 	<stddef.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\texture.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\texture.h
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Rect.h>
 	<SFML/Graphics/Types.h>
@@ -1528,13 +1529,13 @@
 	<SFML/System/Vector2.h>
 	<stddef.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\transformable.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\transformable.h
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Types.h>
 	<SFML/Graphics/Transform.h>
 	<SFML/System/Vector2.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\vertexarray.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\vertexarray.h
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/PrimitiveType.h>
 	<SFML/Graphics/Rect.h>
@@ -1542,46 +1543,46 @@
 	<SFML/Graphics/Vertex.h>
 	<stddef.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\vertexbuffer.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\vertexbuffer.h
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/PrimitiveType.h>
 	<SFML/Graphics/Types.h>
 	<SFML/Graphics/Vertex.h>
 	<stddef.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\view.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\view.h
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Rect.h>
 	<SFML/Graphics/Types.h>
 	<SFML/System/Vector2.h>
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\edit.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\edit.h
 	"crud.h"
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\delete.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\delete.h
 	"crud.h"
 
-1650289442 d:\kuliah\final project\final-project-praktikum-alpro\lib\view.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\view.h
 	"crud.h"
 
-1650289408 source:d:\kuliah\final project\final-project-praktikum-alpro\lib\delete.c
+1650980037 source:d:\kuliah\final project\final-project-praktikum-alpro\lib\delete.c
 	"delete.h"
 
-1650289408 source:d:\kuliah\final project\final-project-praktikum-alpro\lib\edit.c
+1650980037 source:d:\kuliah\final project\final-project-praktikum-alpro\lib\edit.c
 	"edit.h"
 
-1650289408 source:d:\kuliah\final project\final-project-praktikum-alpro\lib\sample_header.c
+1650980037 source:d:\kuliah\final project\final-project-praktikum-alpro\lib\sample_header.c
 	<stdio.h>
 	"sample_header.h"
 
-1650289408 d:\kuliah\final project\final-project-praktikum-alpro\lib\sample_header.h
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sample_header.h
 
-1650289442 source:d:\kuliah\final project\final-project-praktikum-alpro\lib\crud.c
+1650980037 source:d:\kuliah\final project\final-project-praktikum-alpro\lib\crud.c
 	"crud.h"
 
-1650289442 source:d:\kuliah\final project\final-project-praktikum-alpro\main.c
+1650981421 source:d:\kuliah\final project\final-project-praktikum-alpro\main.c
 	"crud.h"
 
-1650290165 source:d:\kuliah\final project\final-project-praktikum-alpro\lib\view.c
+1650980037 source:d:\kuliah\final project\final-project-praktikum-alpro\lib\view.c
 	"view.h"
 

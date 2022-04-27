@@ -418,13 +418,13 @@
 1649560323 source:d:\github\final-project-praktikum-alpro\lib\crud.c
 	"crud.h"
 
-1649810281 source:d:\kuliah\tes github\final-project-praktikum-alpro\lib\create.c
+1649836583 source:d:\kuliah\tes github\final-project-praktikum-alpro\lib\create.c
 	"create.h"
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\create.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\create.h
 	"crud.h"
 
-1649810281 d:\kuliah\tes github\final-project-praktikum-alpro\lib\crud.h
+1649841282 d:\kuliah\tes github\final-project-praktikum-alpro\lib\crud.h
 	<stdio.h>
 	<stdlib.h>
 	<stdbool.h>
@@ -433,8 +433,10 @@
 	"SFML/Graphics.h"
 	"SFML/Window.h"
 	"create.h"
+	"edit.h"
+	"delete.h"
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics.h
 	<SFML/Window.h>
 	<SFML/Graphics/BlendMode.h>
 	<SFML/Graphics/CircleShape.h>
@@ -462,7 +464,7 @@
 	<SFML/Graphics/VertexBuffer.h>
 	<SFML/Graphics/View.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\window.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\window.h
 	<SFML/System.h>
 	<SFML/Window/Clipboard.h>
 	<SFML/Window/Context.h>
@@ -477,7 +479,7 @@
 	<SFML/Window/VideoMode.h>
 	<SFML/Window/Window.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\system.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\system.h
 	<SFML/Config.h>
 	<SFML/System/Clock.h>
 	<SFML/System/InputStream.h>
@@ -488,57 +490,57 @@
 	<SFML/System/Vector2.h>
 	<SFML/System/Vector3.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\config.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\config.h
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\system\clock.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\system\clock.h
 	<SFML/System/Export.h>
 	<SFML/System/Time.h>
 	<SFML/System/Types.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\system\export.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\system\export.h
 	<SFML/Config.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\system\time.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\system\time.h
 	<SFML/System/Export.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\system\types.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\system\types.h
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\system\inputstream.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\system\inputstream.h
 	<SFML/System/Export.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\system\mutex.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\system\mutex.h
 	<SFML/System/Export.h>
 	<SFML/System/Types.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\system\sleep.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\system\sleep.h
 	<SFML/System/Export.h>
 	<SFML/System/Time.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\system\thread.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\system\thread.h
 	<SFML/System/Export.h>
 	<SFML/System/Types.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\system\vector2.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\system\vector2.h
 	<SFML/System/Export.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\system\vector3.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\system\vector3.h
 	<SFML/System/Export.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\window\clipboard.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\window\clipboard.h
 	<SFML/Window/Export.h>
 	<SFML/Window/Types.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\window\export.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\window\export.h
 	<SFML/Config.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\window\types.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\window\types.h
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\window\context.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\window\context.h
 	<SFML/Window/Export.h>
 	<SFML/Window/Types.h>
 	<SFML/Window/Window.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\window\window.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\window\window.h
 	<SFML/Window/Export.h>
 	<SFML/Window/Event.h>
 	<SFML/Window/VideoMode.h>
@@ -546,57 +548,57 @@
 	<SFML/Window/Types.h>
 	<SFML/System/Vector2.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\window\event.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\window\event.h
 	<SFML/Window/Export.h>
 	<SFML/Window/Joystick.h>
 	<SFML/Window/Keyboard.h>
 	<SFML/Window/Mouse.h>
 	<SFML/Window/Sensor.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\window\joystick.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\window\joystick.h
 	<SFML/Window/Export.h>
 	<SFML/Window/JoystickIdentification.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\window\joystickidentification.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\window\joystickidentification.h
 	<SFML/Window/Export.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\window\keyboard.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\window\keyboard.h
 	<SFML/Window/Export.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\window\mouse.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\window\mouse.h
 	<SFML/Window/Export.h>
 	<SFML/Window/Types.h>
 	<SFML/System/Vector2.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\window\sensor.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\window\sensor.h
 	<SFML/Window/Export.h>
 	<SFML/Window/Types.h>
 	<SFML/System/Vector3.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\window\videomode.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\window\videomode.h
 	<SFML/Window/Export.h>
 	<stddef.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\window\windowhandle.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\window\windowhandle.h
 	<SFML/Window/Export.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\window\cursor.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\window\cursor.h
 	<SFML/System/Vector2.h>
 	<SFML/Window/Export.h>
 	<SFML/Window/Types.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\window\touch.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\window\touch.h
 	<SFML/Window/Export.h>
 	<SFML/Window/Types.h>
 	<SFML/System/Vector2.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\blendmode.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\blendmode.h
 	<SFML/Graphics/Export.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\export.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\export.h
 	<SFML/Config.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\circleshape.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\circleshape.h
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Color.h>
 	<SFML/Graphics/Rect.h>
@@ -605,21 +607,21 @@
 	<SFML/System/Vector2.h>
 	<stddef.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\color.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\color.h
 	<SFML/Graphics/Export.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\rect.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\rect.h
 	<SFML/Graphics/Export.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\transform.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\transform.h
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Rect.h>
 	<SFML/Graphics/Types.h>
 	<SFML/System/Vector2.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\types.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\types.h
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\convexshape.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\convexshape.h
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Color.h>
 	<SFML/Graphics/Rect.h>
@@ -628,7 +630,7 @@
 	<SFML/System/Vector2.h>
 	<stddef.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\font.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\font.h
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/FontInfo.h>
 	<SFML/Graphics/Glyph.h>
@@ -636,13 +638,13 @@
 	<SFML/System/InputStream.h>
 	<stddef.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\fontinfo.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\fontinfo.h
 	<SFML/Graphics/Export.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\glyph.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\glyph.h
 	<SFML/Graphics/Rect.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\image.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\image.h
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Color.h>
 	<SFML/Graphics/Rect.h>
@@ -651,10 +653,10 @@
 	<SFML/System/Vector2.h>
 	<stddef.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\primitivetype.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\primitivetype.h
 	<SFML/Graphics/Export.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\rectangleshape.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\rectangleshape.h
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Color.h>
 	<SFML/Graphics/Rect.h>
@@ -663,13 +665,13 @@
 	<SFML/System/Vector2.h>
 	<stddef.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\renderstates.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\renderstates.h
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/BlendMode.h>
 	<SFML/Graphics/Transform.h>
 	<SFML/Graphics/Types.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\rendertexture.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\rendertexture.h
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Color.h>
 	<SFML/Graphics/Rect.h>
@@ -681,12 +683,12 @@
 	<SFML/System/Vector2.h>
 	<stddef.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\vertex.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\vertex.h
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Color.h>
 	<SFML/System/Vector2.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\renderwindow.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\renderwindow.h
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Color.h>
 	<SFML/Graphics/Rect.h>
@@ -701,7 +703,7 @@
 	<SFML/System/Vector2.h>
 	<stddef.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\shader.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\shader.h
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Color.h>
 	<SFML/Graphics/Glsl.h>
@@ -712,13 +714,13 @@
 	<SFML/System/Vector3.h>
 	<stddef.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\glsl.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\glsl.h
 	<SFML/Graphics/Transform.h>
 	<SFML/Graphics/Color.h>
 	<SFML/System/Vector2.h>
 	<SFML/System/Vector3.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\shape.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\shape.h
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Color.h>
 	<SFML/Graphics/Rect.h>
@@ -727,7 +729,7 @@
 	<SFML/System/Vector2.h>
 	<stddef.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\sprite.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\sprite.h
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/BlendMode.h>
 	<SFML/Graphics/Color.h>
@@ -736,7 +738,7 @@
 	<SFML/Graphics/Types.h>
 	<SFML/System/Vector2.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\text.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\text.h
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Color.h>
 	<SFML/Graphics/Rect.h>
@@ -745,7 +747,7 @@
 	<SFML/System/Vector2.h>
 	<stddef.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\texture.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\texture.h
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Rect.h>
 	<SFML/Graphics/Types.h>
@@ -754,13 +756,13 @@
 	<SFML/System/Vector2.h>
 	<stddef.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\transformable.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\transformable.h
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Types.h>
 	<SFML/Graphics/Transform.h>
 	<SFML/System/Vector2.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\vertexarray.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\vertexarray.h
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/PrimitiveType.h>
 	<SFML/Graphics/Rect.h>
@@ -768,29 +770,29 @@
 	<SFML/Graphics/Vertex.h>
 	<stddef.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\vertexbuffer.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\vertexbuffer.h
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/PrimitiveType.h>
 	<SFML/Graphics/Types.h>
 	<SFML/Graphics/Vertex.h>
 	<stddef.h>
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\view.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sfml\graphics\view.h
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Rect.h>
 	<SFML/Graphics/Types.h>
 	<SFML/System/Vector2.h>
 
-1649810281 source:d:\kuliah\tes github\final-project-praktikum-alpro\lib\crud.c
+1649836583 source:d:\kuliah\tes github\final-project-praktikum-alpro\lib\crud.c
 	"crud.h"
 
-1649808958 source:d:\kuliah\tes github\final-project-praktikum-alpro\lib\sample_header.c
+1649836583 source:d:\kuliah\tes github\final-project-praktikum-alpro\lib\sample_header.c
 	<stdio.h>
 	"sample_header.h"
 
-1649808958 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sample_header.h
+1649836583 d:\kuliah\tes github\final-project-praktikum-alpro\lib\sample_header.h
 
-1649810281 source:d:\kuliah\tes github\final-project-praktikum-alpro\main.c
+1649841594 source:d:\kuliah\tes github\final-project-praktikum-alpro\main.c
 	"crud.h"
 
 1649831004 source:d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\create.c
@@ -1174,4 +1176,1207 @@
 
 1649831727 source:d:\kuliah\smt 2\prakalpro\final project\test server\tes2\final-project-praktikum-alpro-main\lib\edit.c
 	"edit.h"
+
+1649836713 d:\kuliah\tes github\final-project-praktikum-alpro\lib\edit.h
+	"crud.h"
+
+1649836713 source:d:\kuliah\tes github\final-project-praktikum-alpro\lib\edit.c
+	"edit.h"
+
+1649841282 d:\kuliah\tes github\final-project-praktikum-alpro\lib\delete.h
+	"crud.h"
+
+1649841650 source:d:\kuliah\tes github\final-project-praktikum-alpro\lib\delete.c
+	"delete.h"
+
+1650980037 source:d:\kuliah\final project\final-project-praktikum-alpro\lib\create.c
+	"create.h"
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\create.h
+	"crud.h"
+
+1650980885 d:\kuliah\final project\final-project-praktikum-alpro\lib\crud.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+	<time.h>
+	"SFML/Graphics.h"
+	"SFML/Window.h"
+	"create.h"
+	"edit.h"
+	"delete.h"
+	"view.h"
+	"windows.h"
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics.h
+	<SFML/Window.h>
+	<SFML/Graphics/BlendMode.h>
+	<SFML/Graphics/CircleShape.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/ConvexShape.h>
+	<SFML/Graphics/Font.h>
+	<SFML/Graphics/FontInfo.h>
+	<SFML/Graphics/Glyph.h>
+	<SFML/Graphics/Image.h>
+	<SFML/Graphics/PrimitiveType.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/RectangleShape.h>
+	<SFML/Graphics/RenderStates.h>
+	<SFML/Graphics/RenderTexture.h>
+	<SFML/Graphics/RenderWindow.h>
+	<SFML/Graphics/Shader.h>
+	<SFML/Graphics/Shape.h>
+	<SFML/Graphics/Sprite.h>
+	<SFML/Graphics/Text.h>
+	<SFML/Graphics/Texture.h>
+	<SFML/Graphics/Transform.h>
+	<SFML/Graphics/Transformable.h>
+	<SFML/Graphics/Vertex.h>
+	<SFML/Graphics/VertexArray.h>
+	<SFML/Graphics/VertexBuffer.h>
+	<SFML/Graphics/View.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window.h
+	<SFML/System.h>
+	<SFML/Window/Clipboard.h>
+	<SFML/Window/Context.h>
+	<SFML/Window/Cursor.h>
+	<SFML/Window/Event.h>
+	<SFML/Window/Joystick.h>
+	<SFML/Window/JoystickIdentification.h>
+	<SFML/Window/Keyboard.h>
+	<SFML/Window/Mouse.h>
+	<SFML/Window/Sensor.h>
+	<SFML/Window/Touch.h>
+	<SFML/Window/VideoMode.h>
+	<SFML/Window/Window.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\system.h
+	<SFML/Config.h>
+	<SFML/System/Clock.h>
+	<SFML/System/InputStream.h>
+	<SFML/System/Mutex.h>
+	<SFML/System/Sleep.h>
+	<SFML/System/Thread.h>
+	<SFML/System/Time.h>
+	<SFML/System/Vector2.h>
+	<SFML/System/Vector3.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\config.h
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\system\clock.h
+	<SFML/System/Export.h>
+	<SFML/System/Time.h>
+	<SFML/System/Types.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\system\export.h
+	<SFML/Config.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\system\time.h
+	<SFML/System/Export.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\system\types.h
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\system\inputstream.h
+	<SFML/System/Export.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\system\mutex.h
+	<SFML/System/Export.h>
+	<SFML/System/Types.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\system\sleep.h
+	<SFML/System/Export.h>
+	<SFML/System/Time.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\system\thread.h
+	<SFML/System/Export.h>
+	<SFML/System/Types.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\system\vector2.h
+	<SFML/System/Export.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\system\vector3.h
+	<SFML/System/Export.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\clipboard.h
+	<SFML/Window/Export.h>
+	<SFML/Window/Types.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\export.h
+	<SFML/Config.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\types.h
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\context.h
+	<SFML/Window/Export.h>
+	<SFML/Window/Types.h>
+	<SFML/Window/Window.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\window.h
+	<SFML/Window/Export.h>
+	<SFML/Window/Event.h>
+	<SFML/Window/VideoMode.h>
+	<SFML/Window/WindowHandle.h>
+	<SFML/Window/Types.h>
+	<SFML/System/Vector2.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\event.h
+	<SFML/Window/Export.h>
+	<SFML/Window/Joystick.h>
+	<SFML/Window/Keyboard.h>
+	<SFML/Window/Mouse.h>
+	<SFML/Window/Sensor.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\joystick.h
+	<SFML/Window/Export.h>
+	<SFML/Window/JoystickIdentification.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\joystickidentification.h
+	<SFML/Window/Export.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\keyboard.h
+	<SFML/Window/Export.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\mouse.h
+	<SFML/Window/Export.h>
+	<SFML/Window/Types.h>
+	<SFML/System/Vector2.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\sensor.h
+	<SFML/Window/Export.h>
+	<SFML/Window/Types.h>
+	<SFML/System/Vector3.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\videomode.h
+	<SFML/Window/Export.h>
+	<stddef.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\windowhandle.h
+	<SFML/Window/Export.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\cursor.h
+	<SFML/System/Vector2.h>
+	<SFML/Window/Export.h>
+	<SFML/Window/Types.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\window\touch.h
+	<SFML/Window/Export.h>
+	<SFML/Window/Types.h>
+	<SFML/System/Vector2.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\blendmode.h
+	<SFML/Graphics/Export.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\export.h
+	<SFML/Config.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\circleshape.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Transform.h>
+	<SFML/Graphics/Types.h>
+	<SFML/System/Vector2.h>
+	<stddef.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\color.h
+	<SFML/Graphics/Export.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\rect.h
+	<SFML/Graphics/Export.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\transform.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Types.h>
+	<SFML/System/Vector2.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\types.h
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\convexshape.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Transform.h>
+	<SFML/Graphics/Types.h>
+	<SFML/System/Vector2.h>
+	<stddef.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\font.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/FontInfo.h>
+	<SFML/Graphics/Glyph.h>
+	<SFML/Graphics/Types.h>
+	<SFML/System/InputStream.h>
+	<stddef.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\fontinfo.h
+	<SFML/Graphics/Export.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\glyph.h
+	<SFML/Graphics/Rect.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\image.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Types.h>
+	<SFML/System/InputStream.h>
+	<SFML/System/Vector2.h>
+	<stddef.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\primitivetype.h
+	<SFML/Graphics/Export.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\rectangleshape.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Transform.h>
+	<SFML/Graphics/Types.h>
+	<SFML/System/Vector2.h>
+	<stddef.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\renderstates.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/BlendMode.h>
+	<SFML/Graphics/Transform.h>
+	<SFML/Graphics/Types.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\rendertexture.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Types.h>
+	<SFML/Graphics/PrimitiveType.h>
+	<SFML/Graphics/RenderStates.h>
+	<SFML/Graphics/Vertex.h>
+	<SFML/Window/Window.h>
+	<SFML/System/Vector2.h>
+	<stddef.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\vertex.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Color.h>
+	<SFML/System/Vector2.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\renderwindow.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Types.h>
+	<SFML/Graphics/PrimitiveType.h>
+	<SFML/Graphics/RenderStates.h>
+	<SFML/Graphics/Vertex.h>
+	<SFML/Window/Event.h>
+	<SFML/Window/VideoMode.h>
+	<SFML/Window/WindowHandle.h>
+	<SFML/Window/Window.h>
+	<SFML/System/Vector2.h>
+	<stddef.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\shader.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/Glsl.h>
+	<SFML/Graphics/Transform.h>
+	<SFML/Graphics/Types.h>
+	<SFML/System/InputStream.h>
+	<SFML/System/Vector2.h>
+	<SFML/System/Vector3.h>
+	<stddef.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\glsl.h
+	<SFML/Graphics/Transform.h>
+	<SFML/Graphics/Color.h>
+	<SFML/System/Vector2.h>
+	<SFML/System/Vector3.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\shape.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Transform.h>
+	<SFML/Graphics/Types.h>
+	<SFML/System/Vector2.h>
+	<stddef.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\sprite.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/BlendMode.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Transform.h>
+	<SFML/Graphics/Types.h>
+	<SFML/System/Vector2.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\text.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Types.h>
+	<SFML/Graphics/Transform.h>
+	<SFML/System/Vector2.h>
+	<stddef.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\texture.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Types.h>
+	<SFML/Window/Types.h>
+	<SFML/System/InputStream.h>
+	<SFML/System/Vector2.h>
+	<stddef.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\transformable.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Types.h>
+	<SFML/Graphics/Transform.h>
+	<SFML/System/Vector2.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\vertexarray.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/PrimitiveType.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Types.h>
+	<SFML/Graphics/Vertex.h>
+	<stddef.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\vertexbuffer.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/PrimitiveType.h>
+	<SFML/Graphics/Types.h>
+	<SFML/Graphics/Vertex.h>
+	<stddef.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sfml\graphics\view.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Types.h>
+	<SFML/System/Vector2.h>
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\edit.h
+	"crud.h"
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\delete.h
+	"crud.h"
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\view.h
+	"crud.h"
+
+1650980037 source:d:\kuliah\final project\final-project-praktikum-alpro\lib\delete.c
+	"delete.h"
+
+1650980037 source:d:\kuliah\final project\final-project-praktikum-alpro\lib\edit.c
+	"edit.h"
+
+1650980037 source:d:\kuliah\final project\final-project-praktikum-alpro\lib\sample_header.c
+	<stdio.h>
+	"sample_header.h"
+
+1650980037 d:\kuliah\final project\final-project-praktikum-alpro\lib\sample_header.h
+
+1650980037 source:d:\kuliah\final project\final-project-praktikum-alpro\lib\crud.c
+	"crud.h"
+
+1650981421 source:d:\kuliah\final project\final-project-praktikum-alpro\main.c
+	"crud.h"
+
+1650980037 source:d:\kuliah\final project\final-project-praktikum-alpro\lib\view.c
+	"view.h"
+
+1651029722 source:d:\kuliah\final project\brilliant\lib\create.c
+	"create.h"
+
+1651029722 d:\kuliah\final project\brilliant\lib\create.h
+	"crud.h"
+
+1651040888 d:\kuliah\final project\brilliant\lib\crud.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+	<time.h>
+	"SFML/Graphics.h"
+	"SFML/Window.h"
+	"create.h"
+	"edit.h"
+	"delete.h"
+	"view.h"
+	"windows.h"
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\graphics.h
+	<SFML/Window.h>
+	<SFML/Graphics/BlendMode.h>
+	<SFML/Graphics/CircleShape.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/ConvexShape.h>
+	<SFML/Graphics/Font.h>
+	<SFML/Graphics/FontInfo.h>
+	<SFML/Graphics/Glyph.h>
+	<SFML/Graphics/Image.h>
+	<SFML/Graphics/PrimitiveType.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/RectangleShape.h>
+	<SFML/Graphics/RenderStates.h>
+	<SFML/Graphics/RenderTexture.h>
+	<SFML/Graphics/RenderWindow.h>
+	<SFML/Graphics/Shader.h>
+	<SFML/Graphics/Shape.h>
+	<SFML/Graphics/Sprite.h>
+	<SFML/Graphics/Text.h>
+	<SFML/Graphics/Texture.h>
+	<SFML/Graphics/Transform.h>
+	<SFML/Graphics/Transformable.h>
+	<SFML/Graphics/Vertex.h>
+	<SFML/Graphics/VertexArray.h>
+	<SFML/Graphics/VertexBuffer.h>
+	<SFML/Graphics/View.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\window.h
+	<SFML/System.h>
+	<SFML/Window/Clipboard.h>
+	<SFML/Window/Context.h>
+	<SFML/Window/Cursor.h>
+	<SFML/Window/Event.h>
+	<SFML/Window/Joystick.h>
+	<SFML/Window/JoystickIdentification.h>
+	<SFML/Window/Keyboard.h>
+	<SFML/Window/Mouse.h>
+	<SFML/Window/Sensor.h>
+	<SFML/Window/Touch.h>
+	<SFML/Window/VideoMode.h>
+	<SFML/Window/Window.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\system.h
+	<SFML/Config.h>
+	<SFML/System/Clock.h>
+	<SFML/System/InputStream.h>
+	<SFML/System/Mutex.h>
+	<SFML/System/Sleep.h>
+	<SFML/System/Thread.h>
+	<SFML/System/Time.h>
+	<SFML/System/Vector2.h>
+	<SFML/System/Vector3.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\config.h
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\system\clock.h
+	<SFML/System/Export.h>
+	<SFML/System/Time.h>
+	<SFML/System/Types.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\system\export.h
+	<SFML/Config.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\system\time.h
+	<SFML/System/Export.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\system\types.h
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\system\inputstream.h
+	<SFML/System/Export.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\system\mutex.h
+	<SFML/System/Export.h>
+	<SFML/System/Types.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\system\sleep.h
+	<SFML/System/Export.h>
+	<SFML/System/Time.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\system\thread.h
+	<SFML/System/Export.h>
+	<SFML/System/Types.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\system\vector2.h
+	<SFML/System/Export.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\system\vector3.h
+	<SFML/System/Export.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\window\clipboard.h
+	<SFML/Window/Export.h>
+	<SFML/Window/Types.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\window\export.h
+	<SFML/Config.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\window\types.h
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\window\context.h
+	<SFML/Window/Export.h>
+	<SFML/Window/Types.h>
+	<SFML/Window/Window.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\window\window.h
+	<SFML/Window/Export.h>
+	<SFML/Window/Event.h>
+	<SFML/Window/VideoMode.h>
+	<SFML/Window/WindowHandle.h>
+	<SFML/Window/Types.h>
+	<SFML/System/Vector2.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\window\event.h
+	<SFML/Window/Export.h>
+	<SFML/Window/Joystick.h>
+	<SFML/Window/Keyboard.h>
+	<SFML/Window/Mouse.h>
+	<SFML/Window/Sensor.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\window\joystick.h
+	<SFML/Window/Export.h>
+	<SFML/Window/JoystickIdentification.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\window\joystickidentification.h
+	<SFML/Window/Export.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\window\keyboard.h
+	<SFML/Window/Export.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\window\mouse.h
+	<SFML/Window/Export.h>
+	<SFML/Window/Types.h>
+	<SFML/System/Vector2.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\window\sensor.h
+	<SFML/Window/Export.h>
+	<SFML/Window/Types.h>
+	<SFML/System/Vector3.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\window\videomode.h
+	<SFML/Window/Export.h>
+	<stddef.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\window\windowhandle.h
+	<SFML/Window/Export.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\window\cursor.h
+	<SFML/System/Vector2.h>
+	<SFML/Window/Export.h>
+	<SFML/Window/Types.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\window\touch.h
+	<SFML/Window/Export.h>
+	<SFML/Window/Types.h>
+	<SFML/System/Vector2.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\graphics\blendmode.h
+	<SFML/Graphics/Export.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\graphics\export.h
+	<SFML/Config.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\graphics\circleshape.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Transform.h>
+	<SFML/Graphics/Types.h>
+	<SFML/System/Vector2.h>
+	<stddef.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\graphics\color.h
+	<SFML/Graphics/Export.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\graphics\rect.h
+	<SFML/Graphics/Export.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\graphics\transform.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Types.h>
+	<SFML/System/Vector2.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\graphics\types.h
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\graphics\convexshape.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Transform.h>
+	<SFML/Graphics/Types.h>
+	<SFML/System/Vector2.h>
+	<stddef.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\graphics\font.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/FontInfo.h>
+	<SFML/Graphics/Glyph.h>
+	<SFML/Graphics/Types.h>
+	<SFML/System/InputStream.h>
+	<stddef.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\graphics\fontinfo.h
+	<SFML/Graphics/Export.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\graphics\glyph.h
+	<SFML/Graphics/Rect.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\graphics\image.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Types.h>
+	<SFML/System/InputStream.h>
+	<SFML/System/Vector2.h>
+	<stddef.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\graphics\primitivetype.h
+	<SFML/Graphics/Export.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\graphics\rectangleshape.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Transform.h>
+	<SFML/Graphics/Types.h>
+	<SFML/System/Vector2.h>
+	<stddef.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\graphics\renderstates.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/BlendMode.h>
+	<SFML/Graphics/Transform.h>
+	<SFML/Graphics/Types.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\graphics\rendertexture.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Types.h>
+	<SFML/Graphics/PrimitiveType.h>
+	<SFML/Graphics/RenderStates.h>
+	<SFML/Graphics/Vertex.h>
+	<SFML/Window/Window.h>
+	<SFML/System/Vector2.h>
+	<stddef.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\graphics\vertex.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Color.h>
+	<SFML/System/Vector2.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\graphics\renderwindow.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Types.h>
+	<SFML/Graphics/PrimitiveType.h>
+	<SFML/Graphics/RenderStates.h>
+	<SFML/Graphics/Vertex.h>
+	<SFML/Window/Event.h>
+	<SFML/Window/VideoMode.h>
+	<SFML/Window/WindowHandle.h>
+	<SFML/Window/Window.h>
+	<SFML/System/Vector2.h>
+	<stddef.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\graphics\shader.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/Glsl.h>
+	<SFML/Graphics/Transform.h>
+	<SFML/Graphics/Types.h>
+	<SFML/System/InputStream.h>
+	<SFML/System/Vector2.h>
+	<SFML/System/Vector3.h>
+	<stddef.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\graphics\glsl.h
+	<SFML/Graphics/Transform.h>
+	<SFML/Graphics/Color.h>
+	<SFML/System/Vector2.h>
+	<SFML/System/Vector3.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\graphics\shape.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Transform.h>
+	<SFML/Graphics/Types.h>
+	<SFML/System/Vector2.h>
+	<stddef.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\graphics\sprite.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/BlendMode.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Transform.h>
+	<SFML/Graphics/Types.h>
+	<SFML/System/Vector2.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\graphics\text.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Types.h>
+	<SFML/Graphics/Transform.h>
+	<SFML/System/Vector2.h>
+	<stddef.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\graphics\texture.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Types.h>
+	<SFML/Window/Types.h>
+	<SFML/System/InputStream.h>
+	<SFML/System/Vector2.h>
+	<stddef.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\graphics\transformable.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Types.h>
+	<SFML/Graphics/Transform.h>
+	<SFML/System/Vector2.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\graphics\vertexarray.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/PrimitiveType.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Types.h>
+	<SFML/Graphics/Vertex.h>
+	<stddef.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\graphics\vertexbuffer.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/PrimitiveType.h>
+	<SFML/Graphics/Types.h>
+	<SFML/Graphics/Vertex.h>
+	<stddef.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\sfml\graphics\view.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Types.h>
+	<SFML/System/Vector2.h>
+
+1651029722 d:\kuliah\final project\brilliant\lib\edit.h
+	"crud.h"
+
+1651029722 d:\kuliah\final project\brilliant\lib\delete.h
+	"crud.h"
+
+1651044302 d:\kuliah\final project\brilliant\lib\view.h
+	"crud.h"
+
+1651043924 source:d:\kuliah\final project\brilliant\lib\crud.c
+	"crud.h"
+
+1651029722 source:d:\kuliah\final project\brilliant\lib\delete.c
+	"delete.h"
+
+1651029722 source:d:\kuliah\final project\brilliant\lib\edit.c
+	"edit.h"
+
+1651029722 source:d:\kuliah\final project\brilliant\lib\sample_header.c
+	<stdio.h>
+	"sample_header.h"
+
+1651029722 d:\kuliah\final project\brilliant\lib\sample_header.h
+
+1651044308 source:d:\kuliah\final project\brilliant\lib\view.c
+	"view.h"
+
+1651043571 source:d:\kuliah\final project\brilliant\main.c
+	"crud.h"
+
+1651044829 source:d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\create.c
+	"create.h"
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\create.h
+	"crud.h"
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\crud.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+	<time.h>
+	"SFML/Graphics.h"
+	"SFML/Window.h"
+	"create.h"
+	"edit.h"
+	"delete.h"
+	"view.h"
+	"windows.h"
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics.h
+	<SFML/Window.h>
+	<SFML/Graphics/BlendMode.h>
+	<SFML/Graphics/CircleShape.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/ConvexShape.h>
+	<SFML/Graphics/Font.h>
+	<SFML/Graphics/FontInfo.h>
+	<SFML/Graphics/Glyph.h>
+	<SFML/Graphics/Image.h>
+	<SFML/Graphics/PrimitiveType.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/RectangleShape.h>
+	<SFML/Graphics/RenderStates.h>
+	<SFML/Graphics/RenderTexture.h>
+	<SFML/Graphics/RenderWindow.h>
+	<SFML/Graphics/Shader.h>
+	<SFML/Graphics/Shape.h>
+	<SFML/Graphics/Sprite.h>
+	<SFML/Graphics/Text.h>
+	<SFML/Graphics/Texture.h>
+	<SFML/Graphics/Transform.h>
+	<SFML/Graphics/Transformable.h>
+	<SFML/Graphics/Vertex.h>
+	<SFML/Graphics/VertexArray.h>
+	<SFML/Graphics/VertexBuffer.h>
+	<SFML/Graphics/View.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\window.h
+	<SFML/System.h>
+	<SFML/Window/Clipboard.h>
+	<SFML/Window/Context.h>
+	<SFML/Window/Cursor.h>
+	<SFML/Window/Event.h>
+	<SFML/Window/Joystick.h>
+	<SFML/Window/JoystickIdentification.h>
+	<SFML/Window/Keyboard.h>
+	<SFML/Window/Mouse.h>
+	<SFML/Window/Sensor.h>
+	<SFML/Window/Touch.h>
+	<SFML/Window/VideoMode.h>
+	<SFML/Window/Window.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\system.h
+	<SFML/Config.h>
+	<SFML/System/Clock.h>
+	<SFML/System/InputStream.h>
+	<SFML/System/Mutex.h>
+	<SFML/System/Sleep.h>
+	<SFML/System/Thread.h>
+	<SFML/System/Time.h>
+	<SFML/System/Vector2.h>
+	<SFML/System/Vector3.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\config.h
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\system\clock.h
+	<SFML/System/Export.h>
+	<SFML/System/Time.h>
+	<SFML/System/Types.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\system\export.h
+	<SFML/Config.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\system\time.h
+	<SFML/System/Export.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\system\types.h
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\system\inputstream.h
+	<SFML/System/Export.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\system\mutex.h
+	<SFML/System/Export.h>
+	<SFML/System/Types.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\system\sleep.h
+	<SFML/System/Export.h>
+	<SFML/System/Time.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\system\thread.h
+	<SFML/System/Export.h>
+	<SFML/System/Types.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\system\vector2.h
+	<SFML/System/Export.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\system\vector3.h
+	<SFML/System/Export.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\window\clipboard.h
+	<SFML/Window/Export.h>
+	<SFML/Window/Types.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\window\export.h
+	<SFML/Config.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\window\types.h
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\window\context.h
+	<SFML/Window/Export.h>
+	<SFML/Window/Types.h>
+	<SFML/Window/Window.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\window\window.h
+	<SFML/Window/Export.h>
+	<SFML/Window/Event.h>
+	<SFML/Window/VideoMode.h>
+	<SFML/Window/WindowHandle.h>
+	<SFML/Window/Types.h>
+	<SFML/System/Vector2.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\window\event.h
+	<SFML/Window/Export.h>
+	<SFML/Window/Joystick.h>
+	<SFML/Window/Keyboard.h>
+	<SFML/Window/Mouse.h>
+	<SFML/Window/Sensor.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\window\joystick.h
+	<SFML/Window/Export.h>
+	<SFML/Window/JoystickIdentification.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\window\joystickidentification.h
+	<SFML/Window/Export.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\window\keyboard.h
+	<SFML/Window/Export.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\window\mouse.h
+	<SFML/Window/Export.h>
+	<SFML/Window/Types.h>
+	<SFML/System/Vector2.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\window\sensor.h
+	<SFML/Window/Export.h>
+	<SFML/Window/Types.h>
+	<SFML/System/Vector3.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\window\videomode.h
+	<SFML/Window/Export.h>
+	<stddef.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\window\windowhandle.h
+	<SFML/Window/Export.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\window\cursor.h
+	<SFML/System/Vector2.h>
+	<SFML/Window/Export.h>
+	<SFML/Window/Types.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\window\touch.h
+	<SFML/Window/Export.h>
+	<SFML/Window/Types.h>
+	<SFML/System/Vector2.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\blendmode.h
+	<SFML/Graphics/Export.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\export.h
+	<SFML/Config.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\circleshape.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Transform.h>
+	<SFML/Graphics/Types.h>
+	<SFML/System/Vector2.h>
+	<stddef.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\color.h
+	<SFML/Graphics/Export.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\rect.h
+	<SFML/Graphics/Export.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\transform.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Types.h>
+	<SFML/System/Vector2.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\types.h
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\convexshape.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Transform.h>
+	<SFML/Graphics/Types.h>
+	<SFML/System/Vector2.h>
+	<stddef.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\font.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/FontInfo.h>
+	<SFML/Graphics/Glyph.h>
+	<SFML/Graphics/Types.h>
+	<SFML/System/InputStream.h>
+	<stddef.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\fontinfo.h
+	<SFML/Graphics/Export.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\glyph.h
+	<SFML/Graphics/Rect.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\image.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Types.h>
+	<SFML/System/InputStream.h>
+	<SFML/System/Vector2.h>
+	<stddef.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\primitivetype.h
+	<SFML/Graphics/Export.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\rectangleshape.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Transform.h>
+	<SFML/Graphics/Types.h>
+	<SFML/System/Vector2.h>
+	<stddef.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\renderstates.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/BlendMode.h>
+	<SFML/Graphics/Transform.h>
+	<SFML/Graphics/Types.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\rendertexture.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Types.h>
+	<SFML/Graphics/PrimitiveType.h>
+	<SFML/Graphics/RenderStates.h>
+	<SFML/Graphics/Vertex.h>
+	<SFML/Window/Window.h>
+	<SFML/System/Vector2.h>
+	<stddef.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\vertex.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Color.h>
+	<SFML/System/Vector2.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\renderwindow.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Types.h>
+	<SFML/Graphics/PrimitiveType.h>
+	<SFML/Graphics/RenderStates.h>
+	<SFML/Graphics/Vertex.h>
+	<SFML/Window/Event.h>
+	<SFML/Window/VideoMode.h>
+	<SFML/Window/WindowHandle.h>
+	<SFML/Window/Window.h>
+	<SFML/System/Vector2.h>
+	<stddef.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\shader.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/Glsl.h>
+	<SFML/Graphics/Transform.h>
+	<SFML/Graphics/Types.h>
+	<SFML/System/InputStream.h>
+	<SFML/System/Vector2.h>
+	<SFML/System/Vector3.h>
+	<stddef.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\glsl.h
+	<SFML/Graphics/Transform.h>
+	<SFML/Graphics/Color.h>
+	<SFML/System/Vector2.h>
+	<SFML/System/Vector3.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\shape.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Transform.h>
+	<SFML/Graphics/Types.h>
+	<SFML/System/Vector2.h>
+	<stddef.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\sprite.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/BlendMode.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Transform.h>
+	<SFML/Graphics/Types.h>
+	<SFML/System/Vector2.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\text.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Color.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Types.h>
+	<SFML/Graphics/Transform.h>
+	<SFML/System/Vector2.h>
+	<stddef.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\texture.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Types.h>
+	<SFML/Window/Types.h>
+	<SFML/System/InputStream.h>
+	<SFML/System/Vector2.h>
+	<stddef.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\transformable.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Types.h>
+	<SFML/Graphics/Transform.h>
+	<SFML/System/Vector2.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\vertexarray.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/PrimitiveType.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Types.h>
+	<SFML/Graphics/Vertex.h>
+	<stddef.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\vertexbuffer.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/PrimitiveType.h>
+	<SFML/Graphics/Types.h>
+	<SFML/Graphics/Vertex.h>
+	<stddef.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\view.h
+	<SFML/Graphics/Export.h>
+	<SFML/Graphics/Rect.h>
+	<SFML/Graphics/Types.h>
+	<SFML/System/Vector2.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\edit.h
+	"crud.h"
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\delete.h
+	"crud.h"
+
+1651049895 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\view.h
+	"crud.h"
+
+1651044829 source:d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\crud.c
+	"crud.h"
+
+1651044829 source:d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\delete.c
+	"delete.h"
+
+1651044829 source:d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\edit.c
+	"edit.h"
+
+1651044829 source:d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sample_header.c
+	<stdio.h>
+	"sample_header.h"
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sample_header.h
+
+1651049981 source:d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\view.c
+	"view.h"
+
+1651048006 source:d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\main.c
+	"crud.h"
 

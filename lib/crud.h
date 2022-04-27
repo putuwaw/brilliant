@@ -33,11 +33,17 @@ struct tm *timeInfo;
 // LOCAL HEADER
 #include "create.h"
 #include "edit.h"
+#include "delete.h"
+#include "view.h"
+#include "windows.h"
 
 // FUNCTIONS
 void clearScreen();
 void pauseScreen();
 char *timeToStr(struct tm *timeInfo);
+char *yearToStr(int year);
+char *numToStr(int num);
+void resetString(char *str, int len);
 void getDataFromFile();
 
 #endif // CRUD_H_INCLUDED

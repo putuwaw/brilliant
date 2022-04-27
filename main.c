@@ -184,7 +184,7 @@ int main(){
                         case 3:
                             do{
                                 r2 = true;
-                                system("cls");
+                                clearScreen();
                                 printf("0. Kembali\n");
                                 printf("1. Cari Nama Buku\n");
                                 printf("2. Cari Nama Penulis\n");
@@ -192,15 +192,14 @@ int main(){
                                 printf("4. Cari Kategori\n");
                                 printf("Pilihan Anda: ");
                                 scanf("%d", &p3);
+                                fflush(stdin);
                                 switch (p3){
                                     case 0:
-                                        // BACK
                                         r2 = false;
                                         break;
                                     case 1:
-                                        // NAME SEARCH
-                                        printf("name search\n");
-                                        system("pause");
+                                        lihat_cari_nama();
+                                        pauseScreen();
                                         break;
                                     case 2:
                                         // AUTHOR SEARCH

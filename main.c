@@ -4,6 +4,7 @@ int main(){
     getDataFromFile();
     int pilihan, p2, p3;
     bool repeat, r1, r2;
+    COORD pos;
     do{
         repeat = true;
         clearScreen();
@@ -35,11 +36,11 @@ int main(){
         timeInfo->tm_mday, timeInfo->tm_mon+1, timeInfo->tm_year+1900, timeInfo->tm_hour, timeInfo->tm_min);
         printf("=====================================================================\n");
         // Cursor Position
-        COORD pos;
         pos.X = 39;
         pos.Y = 14;
         SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
         scanf("%d", &pilihan);
+        fflush(stdin);
         switch (pilihan){
             case 0:
                 system("cls");
@@ -229,11 +230,17 @@ int main(){
                 } while (r1);
                 break;
             case 5:
+                pos.X = 0;
+                pos.Y = 23;
+                SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
                 repeat = false;
                 break;
             default:
+                pos.X = 0;
+                pos.Y = 24;
+                SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
                 printf("Input harus 0-5!\n");
-                system("pause");
+                pauseScreen();
         }
     } while (repeat);
     return 0;

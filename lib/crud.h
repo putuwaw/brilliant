@@ -43,6 +43,7 @@ void pauseScreen();
 char *timeToStr(struct tm *timeInfo);
 char *yearToStr(int year);
 char *numToStr(int num);
+void resetString(char *str, int len);
 void getDataFromFile();
 
 #endif // CRUD_H_INCLUDED

@@ -4,6 +4,7 @@ int main(){
     getDataFromFile();
     int pilihan, p2, p3;
     bool repeat, r1, r2;
+    COORD pos;
     do{
         repeat = true;
         clearScreen();
@@ -35,11 +36,11 @@ int main(){
         timeInfo->tm_mday, timeInfo->tm_mon+1, timeInfo->tm_year+1900, timeInfo->tm_hour, timeInfo->tm_min);
         printf("=====================================================================\n");
         // Cursor Position
-        COORD pos;
         pos.X = 39;
         pos.Y = 14;
         SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
         scanf("%d", &pilihan);
+        fflush(stdin);
         switch (pilihan){
             case 0:
                 system("cls");
@@ -183,7 +184,7 @@ int main(){
                         case 3:
                             do{
                                 r2 = true;
-                                system("cls");
+                                clearScreen();
                                 printf("0. Kembali\n");
                                 printf("1. Cari Nama Buku\n");
                                 printf("2. Cari Nama Penulis\n");
@@ -191,15 +192,14 @@ int main(){
                                 printf("4. Cari Kategori\n");
                                 printf("Pilihan Anda: ");
                                 scanf("%d", &p3);
+                                fflush(stdin);
                                 switch (p3){
                                     case 0:
-                                        // BACK
                                         r2 = false;
                                         break;
                                     case 1:
-                                        // NAME SEARCH
-                                        printf("name search\n");
-                                        system("pause");
+                                        lihat_cari_nama();
+                                        pauseScreen();
                                         break;
                                     case 2:
                                         // AUTHOR SEARCH
@@ -229,11 +229,17 @@ int main(){
                 } while (r1);
                 break;
             case 5:
+                pos.X = 0;
+                pos.Y = 23;
+                SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
                 repeat = false;
                 break;
             default:
+                pos.X = 0;
+                pos.Y = 24;
+                SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
                 printf("Input harus 0-5!\n");
-                system("pause");
+                pauseScreen();
         }
     } while (repeat);
     return 0;

@@ -10,12 +10,12 @@ void pauseScreen(){
     getchar();
 }
 char *timeToStr(struct tm *timeInfo){
-    static const char weekDay[][7] = {
+    static const char weekDay[][10] = {
         "Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"};
-    static const char monthDay[][10] = {
+    static const char monthDay[][15] = {
         "Januari", "Februari", "Maret", "April", "Mei", "Juni",
         "Juli", "Agustus", "September", "Oktober", "November", "Desember"};
-    static char timeResult[38];
+    static char timeResult[50];
     sprintf(timeResult, "%.2d:%.2d:%.2d - %s, %d %s %d",
             timeInfo->tm_hour,
             timeInfo->tm_min,
@@ -36,8 +36,13 @@ char *numToStr(int num){
     sprintf(strResult, "%d", num);
     return strResult;
 }
+void resetString(char *str, int len){
+    int idx;
+    for (idx = 0; idx < len; idx++){
+        str[idx] = '\0';
+    }
+}
 void getDataFromFile(){
-
     int tempYear = 0, counter = 0, section = 0;
 
     head = NULL;
@@ -77,11 +82,11 @@ void getDataFromFile(){
             totalBook++;
             // RESET
             counter = section = tempYear = 0;
-            memset(tempName, 0, sizeof(tempName));
-            memset(tempAuthor, 0, sizeof(tempAuthor));
-            memset(tempCategory, 0, sizeof(tempCategory));
-            memset(tempCreated, 0, sizeof(tempCreated));
-            memset(tempModified, 0, sizeof(tempModified));
+            resetString(tempName,100);
+            resetString(tempAuthor,100);
+            resetString(tempCategory,100);
+            resetString(tempCreated,100);
+            resetString(tempModified,100);
         }
         else{
             if (section == 0){

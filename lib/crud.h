@@ -18,13 +18,12 @@ typedef struct book{
     char modified[100];
     struct book *next;
 } book;
-
 book *b, *head;
 
 int totalBook;
 
 time_t rawtime;
-struct tm *timeInfo;
+struct  tm *timeInfo;
 
 // SFML
 #include "SFML/Graphics.h"

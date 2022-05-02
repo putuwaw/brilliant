@@ -292,7 +292,7 @@ void lihat_data_normal(){
     sfTexture_destroy(texture);
 }
 
-void draw_view_search(book *headSearch, int bookFound){
+void draw_view_search(book *headSearch, int bookFound, int cat){
     // SFML VARIABLE
     sfRenderWindow *window;
     sfTexture *texture;
@@ -369,7 +369,12 @@ void draw_view_search(book *headSearch, int bookFound){
             titlePos.y = 4;
             textTitle = sfText_create();
             sfText_setFont(textTitle, font);
-            sfText_setString(textTitle, headSearch->name);
+            if(cat == 1){
+                sfText_setString(textTitle, headSearch->name);
+            }
+            else if(cat == 2){
+                sfText_setString(textTitle, headSearch->author);
+            }
             sfText_setCharacterSize(textTitle, 33);
             sfText_setPosition(textTitle, titlePos);
             sfText_setColor(textTitle, sfRed);
@@ -594,6 +599,7 @@ void draw_view_search(book *headSearch, int bookFound){
 }
 
 void lihat_cari_nama(){
+    int cat = 1;
     char nameSearch[100];
     // RESET
     resetString(nameSearch, 100);
@@ -635,7 +641,7 @@ void lihat_cari_nama(){
     }
     // GUI - SFML
     if (isFound){
-        draw_view_search(headNameSearch, bookFound);
+        draw_view_search(headNameSearch, bookFound, cat);
         // DELETE
         book *del;
         del = headNameSearch;
@@ -649,5 +655,63 @@ void lihat_cari_nama(){
     }
     else{
         printf("Tidak ada buku dengan nama \"%s\" ditemukan!\n", nameSearch);
+    }
+}
+
+void lihat_cari_author(){
+    int cat = 2;
+    char authorSearch[100];
+    //RESET
+    resetString(authorSearch, 100);
+    //SEARCH
+    int bookFound = 0;
+    book *headAuthorSearch, *curr, *temp;
+    bool isFound = false;
+    headAuthorSearch = NULL;
+    fflush(stdin);
+    printf("Masukkan nama author yang akan dicari: ");
+    gets(authorSearch);
+    curr = head;
+    while(curr!=NULL){
+        if(strcmp(authorSearch, curr->author) == 0){
+            isFound = true;
+            bookFound++;
+            temp = (book*)malloc(sizeof(book));
+            strcpy(temp->name, curr->name);
+            strcpy(temp->author, curr->author);
+            temp->year = curr->year;
+            strcpy(temp->category, curr->category);
+            strcpy(temp->created, curr->created);
+            strcpy(temp->modified, curr->modified);
+            temp->next = NULL;
+            if(headAuthorSearch == NULL){
+                headAuthorSearch = temp;
+            }
+            else{
+                book *prev;
+                prev = headAuthorSearch;
+                while(prev->author != NULL){
+                    prev = prev->next;
+                }
+                prev->next = temp;
+            }
+        }
+        curr = curr->next;
+    }
+
+    if (isFound){
+        draw_view_search(headAuthorSearch, bookFound, cat);
+        book *del;
+        del = headAuthorSearch;
+        while(del->next != NULL){
+            headAuthorSearch = del->next;
+            free(del);
+            del = headAuthorSearch;
+        }
+        free(del);
+        headAuthorSearch = NULL;
+    }
+    else{
+        printf("Tidak ada buku dengan author \"%s\" ditemukan!\n", authorSearch);
     }
 }

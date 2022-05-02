@@ -1983,6 +1983,17 @@
 1651043571 source:d:\kuliah\final project\brilliant\main.c
 	"crud.h"
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+1651044829 source:d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\create.c
+	"create.h"
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\create.h
+	"crud.h"
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\crud.h
+=======
 1651055634 source:d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\create.c
 	"create.h"
 
@@ -1990,6 +2001,7 @@
 	"crud.h"
 
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\crud.h
+>>>>>>> main
 	<stdio.h>
 	<stdlib.h>
 	<stdbool.h>
@@ -2003,7 +2015,11 @@
 	"view.h"
 	"windows.h"
 
+<<<<<<< HEAD
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics.h
+=======
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\sfml\graphics.h
+>>>>>>> main
 	<SFML/Window.h>
 	<SFML/Graphics/BlendMode.h>
 	<SFML/Graphics/CircleShape.h>
@@ -2031,7 +2047,11 @@
 	<SFML/Graphics/VertexBuffer.h>
 	<SFML/Graphics/View.h>
 
+<<<<<<< HEAD
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\window.h
+=======
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\sfml\window.h
+>>>>>>> main
 	<SFML/System.h>
 	<SFML/Window/Clipboard.h>
 	<SFML/Window/Context.h>
@@ -2046,7 +2066,11 @@
 	<SFML/Window/VideoMode.h>
 	<SFML/Window/Window.h>
 
+<<<<<<< HEAD
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\system.h
+=======
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\sfml\system.h
+>>>>>>> main
 	<SFML/Config.h>
 	<SFML/System/Clock.h>
 	<SFML/System/InputStream.h>
@@ -2057,13 +2081,60 @@
 	<SFML/System/Vector2.h>
 	<SFML/System/Vector3.h>
 
+<<<<<<< HEAD
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\config.h
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\system\clock.h
+=======
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\sfml\config.h
 
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\sfml\system\clock.h
+>>>>>>> main
 	<SFML/System/Export.h>
 	<SFML/System/Time.h>
 	<SFML/System/Types.h>
 
+<<<<<<< HEAD
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\system\export.h
+	<SFML/Config.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\system\time.h
+	<SFML/System/Export.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\system\types.h
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\system\inputstream.h
+	<SFML/System/Export.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\system\mutex.h
+	<SFML/System/Export.h>
+	<SFML/System/Types.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\system\sleep.h
+	<SFML/System/Export.h>
+	<SFML/System/Time.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\system\thread.h
+	<SFML/System/Export.h>
+	<SFML/System/Types.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\system\vector2.h
+	<SFML/System/Export.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\system\vector3.h
+	<SFML/System/Export.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\window\clipboard.h
+	<SFML/Window/Export.h>
+	<SFML/Window/Types.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\window\export.h
+	<SFML/Config.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\window\types.h
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\window\context.h
+=======
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\sfml\system\export.h
 	<SFML/Config.h>
 
@@ -2103,11 +2174,16 @@
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\sfml\window\types.h
 
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\sfml\window\context.h
+>>>>>>> main
 	<SFML/Window/Export.h>
 	<SFML/Window/Types.h>
 	<SFML/Window/Window.h>
 
+<<<<<<< HEAD
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\window\window.h
+=======
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\sfml\window\window.h
+>>>>>>> main
 	<SFML/Window/Export.h>
 	<SFML/Window/Event.h>
 	<SFML/Window/VideoMode.h>
@@ -2115,13 +2191,30 @@
 	<SFML/Window/Types.h>
 	<SFML/System/Vector2.h>
 
+<<<<<<< HEAD
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\window\event.h
+=======
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\sfml\window\event.h
+>>>>>>> main
 	<SFML/Window/Export.h>
 	<SFML/Window/Joystick.h>
 	<SFML/Window/Keyboard.h>
 	<SFML/Window/Mouse.h>
 	<SFML/Window/Sensor.h>
 
+<<<<<<< HEAD
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\window\joystick.h
+	<SFML/Window/Export.h>
+	<SFML/Window/JoystickIdentification.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\window\joystickidentification.h
+	<SFML/Window/Export.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\window\keyboard.h
+	<SFML/Window/Export.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\window\mouse.h
+=======
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\sfml\window\joystick.h
 	<SFML/Window/Export.h>
 	<SFML/Window/JoystickIdentification.h>
@@ -2133,15 +2226,30 @@
 	<SFML/Window/Export.h>
 
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\sfml\window\mouse.h
+>>>>>>> main
 	<SFML/Window/Export.h>
 	<SFML/Window/Types.h>
 	<SFML/System/Vector2.h>
 
+<<<<<<< HEAD
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\window\sensor.h
+=======
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\sfml\window\sensor.h
+>>>>>>> main
 	<SFML/Window/Export.h>
 	<SFML/Window/Types.h>
 	<SFML/System/Vector3.h>
 
+<<<<<<< HEAD
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\window\videomode.h
+	<SFML/Window/Export.h>
+	<stddef.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\window\windowhandle.h
+	<SFML/Window/Export.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\window\cursor.h
+=======
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\sfml\window\videomode.h
 	<SFML/Window/Export.h>
 	<stddef.h>
@@ -2150,15 +2258,29 @@
 	<SFML/Window/Export.h>
 
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\sfml\window\cursor.h
+>>>>>>> main
 	<SFML/System/Vector2.h>
 	<SFML/Window/Export.h>
 	<SFML/Window/Types.h>
 
+<<<<<<< HEAD
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\window\touch.h
+=======
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\sfml\window\touch.h
+>>>>>>> main
 	<SFML/Window/Export.h>
 	<SFML/Window/Types.h>
 	<SFML/System/Vector2.h>
 
+<<<<<<< HEAD
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\blendmode.h
+	<SFML/Graphics/Export.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\export.h
+	<SFML/Config.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\circleshape.h
+=======
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\sfml\graphics\blendmode.h
 	<SFML/Graphics/Export.h>
 
@@ -2166,6 +2288,7 @@
 	<SFML/Config.h>
 
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\sfml\graphics\circleshape.h
+>>>>>>> main
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Color.h>
 	<SFML/Graphics/Rect.h>
@@ -2174,6 +2297,15 @@
 	<SFML/System/Vector2.h>
 	<stddef.h>
 
+<<<<<<< HEAD
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\color.h
+	<SFML/Graphics/Export.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\rect.h
+	<SFML/Graphics/Export.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\transform.h
+=======
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\sfml\graphics\color.h
 	<SFML/Graphics/Export.h>
 
@@ -2181,14 +2313,21 @@
 	<SFML/Graphics/Export.h>
 
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\sfml\graphics\transform.h
+>>>>>>> main
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Rect.h>
 	<SFML/Graphics/Types.h>
 	<SFML/System/Vector2.h>
 
+<<<<<<< HEAD
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\types.h
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\convexshape.h
+=======
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\sfml\graphics\types.h
 
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\sfml\graphics\convexshape.h
+>>>>>>> main
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Color.h>
 	<SFML/Graphics/Rect.h>
@@ -2197,7 +2336,11 @@
 	<SFML/System/Vector2.h>
 	<stddef.h>
 
+<<<<<<< HEAD
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\font.h
+=======
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\sfml\graphics\font.h
+>>>>>>> main
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/FontInfo.h>
 	<SFML/Graphics/Glyph.h>
@@ -2205,6 +2348,15 @@
 	<SFML/System/InputStream.h>
 	<stddef.h>
 
+<<<<<<< HEAD
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\fontinfo.h
+	<SFML/Graphics/Export.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\glyph.h
+	<SFML/Graphics/Rect.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\image.h
+=======
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\sfml\graphics\fontinfo.h
 	<SFML/Graphics/Export.h>
 
@@ -2212,6 +2364,7 @@
 	<SFML/Graphics/Rect.h>
 
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\sfml\graphics\image.h
+>>>>>>> main
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Color.h>
 	<SFML/Graphics/Rect.h>
@@ -2220,10 +2373,17 @@
 	<SFML/System/Vector2.h>
 	<stddef.h>
 
+<<<<<<< HEAD
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\primitivetype.h
+	<SFML/Graphics/Export.h>
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\rectangleshape.h
+=======
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\sfml\graphics\primitivetype.h
 	<SFML/Graphics/Export.h>
 
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\sfml\graphics\rectangleshape.h
+>>>>>>> main
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Color.h>
 	<SFML/Graphics/Rect.h>
@@ -2232,13 +2392,21 @@
 	<SFML/System/Vector2.h>
 	<stddef.h>
 
+<<<<<<< HEAD
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\renderstates.h
+=======
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\sfml\graphics\renderstates.h
+>>>>>>> main
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/BlendMode.h>
 	<SFML/Graphics/Transform.h>
 	<SFML/Graphics/Types.h>
 
+<<<<<<< HEAD
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\rendertexture.h
+=======
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\sfml\graphics\rendertexture.h
+>>>>>>> main
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Color.h>
 	<SFML/Graphics/Rect.h>
@@ -2250,12 +2418,20 @@
 	<SFML/System/Vector2.h>
 	<stddef.h>
 
+<<<<<<< HEAD
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\vertex.h
+=======
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\sfml\graphics\vertex.h
+>>>>>>> main
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Color.h>
 	<SFML/System/Vector2.h>
 
+<<<<<<< HEAD
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\renderwindow.h
+=======
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\sfml\graphics\renderwindow.h
+>>>>>>> main
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Color.h>
 	<SFML/Graphics/Rect.h>
@@ -2270,7 +2446,11 @@
 	<SFML/System/Vector2.h>
 	<stddef.h>
 
+<<<<<<< HEAD
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\shader.h
+=======
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\sfml\graphics\shader.h
+>>>>>>> main
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Color.h>
 	<SFML/Graphics/Glsl.h>
@@ -2281,13 +2461,21 @@
 	<SFML/System/Vector3.h>
 	<stddef.h>
 
+<<<<<<< HEAD
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\glsl.h
+=======
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\sfml\graphics\glsl.h
+>>>>>>> main
 	<SFML/Graphics/Transform.h>
 	<SFML/Graphics/Color.h>
 	<SFML/System/Vector2.h>
 	<SFML/System/Vector3.h>
 
+<<<<<<< HEAD
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\shape.h
+=======
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\sfml\graphics\shape.h
+>>>>>>> main
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Color.h>
 	<SFML/Graphics/Rect.h>
@@ -2296,7 +2484,11 @@
 	<SFML/System/Vector2.h>
 	<stddef.h>
 
+<<<<<<< HEAD
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\sprite.h
+=======
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\sfml\graphics\sprite.h
+>>>>>>> main
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/BlendMode.h>
 	<SFML/Graphics/Color.h>
@@ -2305,7 +2497,11 @@
 	<SFML/Graphics/Types.h>
 	<SFML/System/Vector2.h>
 
+<<<<<<< HEAD
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\text.h
+=======
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\sfml\graphics\text.h
+>>>>>>> main
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Color.h>
 	<SFML/Graphics/Rect.h>
@@ -2314,7 +2510,11 @@
 	<SFML/System/Vector2.h>
 	<stddef.h>
 
+<<<<<<< HEAD
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\texture.h
+=======
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\sfml\graphics\texture.h
+>>>>>>> main
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Rect.h>
 	<SFML/Graphics/Types.h>
@@ -2323,13 +2523,21 @@
 	<SFML/System/Vector2.h>
 	<stddef.h>
 
+<<<<<<< HEAD
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\transformable.h
+=======
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\sfml\graphics\transformable.h
+>>>>>>> main
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Types.h>
 	<SFML/Graphics/Transform.h>
 	<SFML/System/Vector2.h>
 
+<<<<<<< HEAD
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\vertexarray.h
+=======
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\sfml\graphics\vertexarray.h
+>>>>>>> main
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/PrimitiveType.h>
 	<SFML/Graphics/Rect.h>
@@ -2337,19 +2545,60 @@
 	<SFML/Graphics/Vertex.h>
 	<stddef.h>
 
+<<<<<<< HEAD
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\vertexbuffer.h
+=======
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\sfml\graphics\vertexbuffer.h
+>>>>>>> main
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/PrimitiveType.h>
 	<SFML/Graphics/Types.h>
 	<SFML/Graphics/Vertex.h>
 	<stddef.h>
 
+<<<<<<< HEAD
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sfml\graphics\view.h
+=======
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\sfml\graphics\view.h
+>>>>>>> main
 	<SFML/Graphics/Export.h>
 	<SFML/Graphics/Rect.h>
 	<SFML/Graphics/Types.h>
 	<SFML/System/Vector2.h>
 
+<<<<<<< HEAD
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\edit.h
+	"crud.h"
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\delete.h
+	"crud.h"
+
+1651049895 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\view.h
+	"crud.h"
+
+1651044829 source:d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\crud.c
+	"crud.h"
+
+1651044829 source:d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\delete.c
+	"delete.h"
+
+1651044829 source:d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\edit.c
+	"edit.h"
+
+1651044829 source:d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sample_header.c
+	<stdio.h>
+	"sample_header.h"
+
+1651044829 d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\sample_header.h
+
+1651049981 source:d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\lib\view.c
+	"view.h"
+
+1651048006 source:d:\kuliah\smt 2\prakalpro\final project\test server\brilliant-features\main.c
+	"crud.h"
+
+>>>>>>> 98fa9e894edfe59ca450ce9b152f1ebf62296196
+=======
 1651055634 d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\lib\edit.h
 	"crud.h"
 
@@ -2380,3 +2629,4 @@
 1651055634 source:d:\kuliah\smt 2\prakalpro\final project\test server\git\brilliant\main.c
 	"crud.h"
 
+>>>>>>> main

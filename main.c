@@ -203,8 +203,8 @@ int main(){
                                         break;
                                     case 2:
                                         // AUTHOR SEARCH
-                                        printf("name search\n");
-                                        system("pause");
+                                        lihat_cari_author();
+                                        pauseScreen();
                                         break;
                                     case 3:
                                         // PUBLICATION DATE SEARCH

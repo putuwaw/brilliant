@@ -150,15 +150,14 @@ int main(){
                                 printf("4. Urutkan Berdasarkan Kategori\n");
                                 printf("Pilihan Anda: ");
                                 scanf("%d", &p3);
+                                fflush(stdin);
                                 switch (p3){
                                     case 0:
-                                        // BACK
                                         r2 = false;
                                         break;
                                     case 1:
-                                        // NAME SORTING
-                                        printf("sort name\n");
-                                        system("pause");
+                                        lihat_sort_nama();
+                                        pauseScreen();
                                         break;
                                     case 2:
                                         // AUTHOR SORTING
@@ -177,7 +176,7 @@ int main(){
                                         break;
                                     default:
                                         printf("Input harus 0-4!\n");
-                                        system("pause");
+                                        pauseScreen();
                                 }
                             } while (r2);
                             break;

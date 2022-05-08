@@ -316,7 +316,13 @@ void draw_view_search(book *headSearch, int bookFound, int cat){
     minNum = maxNum - 4;
 
     // TEXTURE AND SPRITE
-    texture = sfTexture_createFromFile("assets/image/Search Design.png", NULL);
+    // XCMD MARKER
+    if(cat<=4){
+        texture = sfTexture_createFromFile("assets/image/Search Design.png", NULL);
+    }
+    else if(cat>4){
+        texture = sfTexture_createFromFile("assets/image/View Sort.png", NULL);
+    }
 
     // FONT
     font = sfFont_createFromFile("assets/font/Roboto-Regular.ttf");
@@ -369,12 +375,35 @@ void draw_view_search(book *headSearch, int bookFound, int cat){
             titlePos.y = 4;
             textTitle = sfText_create();
             sfText_setFont(textTitle, font);
+            // XCMD MARKER 2
             if(cat == 1){
                 sfText_setString(textTitle, headSearch->name);
             }
             else if(cat == 2){
                 sfText_setString(textTitle, headSearch->author);
             }
+            else if(cat == 3){
+                int currY = headSearch->year;
+                char currYC[10];
+                itoa(currY,currYC,10);
+                sfText_setString(textTitle, currYC);
+            }
+            else if(cat == 4){
+                sfText_setString(textTitle, headSearch->category);
+            }
+            else if(cat == 5){
+                sfText_setString(textTitle, "Name");
+            }
+            else if(cat == 6){
+                sfText_setString(textTitle, "Author");
+            }
+            else if(cat == 7){
+                sfText_setString(textTitle, "Year");
+            }
+            else if(cat == 8){
+                sfText_setString(textTitle, "Category");
+            }
+
             sfText_setCharacterSize(textTitle, 33);
             sfText_setPosition(textTitle, titlePos);
             sfText_setColor(textTitle, sfRed);
@@ -672,7 +701,7 @@ void lihat_cari_author(){
     printf("Masukkan nama author yang akan dicari: ");
     gets(authorSearch);
     curr = head;
-    while(curr!=NULL){
+    while(curr != NULL){
         if(strcmp(authorSearch, curr->author) == 0){
             isFound = true;
             bookFound++;
@@ -690,7 +719,7 @@ void lihat_cari_author(){
             else{
                 book *prev;
                 prev = headAuthorSearch;
-                while(prev->author != NULL){
+                while(prev->next != NULL){
                     prev = prev->next;
                 }
                 prev->next = temp;
@@ -713,5 +742,445 @@ void lihat_cari_author(){
     }
     else{
         printf("Tidak ada buku dengan author \"%s\" ditemukan!\n", authorSearch);
+    }
+}
+
+void lihat_cari_year(){
+    int cat = 3;
+    int yearSearch;
+    char input[100];
+    resetString(input, 100);
+    //SEARCH
+    int bookFound = 0;
+    book *headYearSearch, *curr, *temp;
+    bool isFound = false;
+    headYearSearch = NULL;
+    fflush(stdin);
+    printf("Masukkan tahun terbit buku yang ingin dicari: ");
+    gets(input);
+    int length;
+    length = strlen(input);
+    for(int i=0;i<length;i++){
+        if (!isdigit(input[i])){
+            printf ("Input Harus Angka!\n");
+            return;
+        }
+    }
+    yearSearch = atoi(input);
+    curr = head;
+    while(curr != NULL){
+        if(yearSearch==curr->year){
+            isFound = true;
+            bookFound++;
+            temp = (book*)malloc(sizeof(book));
+            strcpy(temp->name, curr->name);
+            strcpy(temp->author, curr->author);
+            temp->year = curr->year;
+            strcpy(temp->category, curr->category);
+            strcpy(temp->created, curr->created);
+            strcpy(temp->modified, curr->modified);
+            temp->next = NULL;
+            if(headYearSearch == NULL){
+                headYearSearch = temp;
+            }
+            else{
+                book *prev;
+                prev = headYearSearch;
+                while(prev->next != NULL){
+                    prev = prev->next;
+                }
+                prev->next = temp;
+            }
+        }
+        curr = curr->next;
+    }
+
+    if (isFound){
+        draw_view_search(headYearSearch, bookFound, cat);
+        book *del;
+        del = headYearSearch;
+        while(del->next != NULL){
+            headYearSearch = del->next;
+            free(del);
+            del = headYearSearch;
+        }
+        free(del);
+        headYearSearch = NULL;
+    }
+    else{
+        printf("Tidak ada buku dengan tahun \"%d\" ditemukan!\n", yearSearch);
+        return;
+    }
+}
+
+
+void lihat_cari_cat(){
+    int cat = 4;
+    char catSearch[100];
+    //RESET
+    resetString(catSearch, 100);
+    //SEARCH
+    int bookFound = 0;
+    book *headCatSearch, *curr, *temp;
+    bool isFound = false;
+    headCatSearch = NULL;
+    fflush(stdin);
+    printf("Masukkan kategori yang akan dicari: ");
+    gets(catSearch);
+    curr = head;
+    while(curr!=NULL){
+        if(strcmp(catSearch, curr->category) == 0){
+            isFound = true;
+            bookFound++;
+            temp = (book*)malloc(sizeof(book));
+            strcpy(temp->name, curr->name);
+            strcpy(temp->author, curr->author);
+            temp->year = curr->year;
+            strcpy(temp->category, curr->category);
+            strcpy(temp->created, curr->created);
+            strcpy(temp->modified, curr->modified);
+            temp->next = NULL;
+            if(headCatSearch == NULL){
+                headCatSearch = temp;
+            }
+            else{
+                book *prev;
+                prev = headCatSearch;
+                while(prev->next != NULL){
+                    prev = prev->next;
+                }
+                prev->next = temp;
+            }
+        }
+        curr = curr->next;
+    }
+
+    if (isFound){
+        draw_view_search(headCatSearch, bookFound, cat);
+        book *del;
+        del = headCatSearch;
+        while(del->next != NULL){
+            headCatSearch = del->next;
+            free(del);
+            del = headCatSearch;
+        }
+        free(del);
+        headCatSearch = NULL;
+    }
+    else{
+        printf("Tidak ada buku dengan kategori \"%s\" ditemukan!\n", catSearch);
+    }
+}
+
+
+void lihat_sort_nama(){
+    if (totalBook > 0){
+        int cat = 5;
+        // DUPLICATE ALL NODE
+        book *temp, *headSortName;
+        headSortName = NULL;
+
+        book *curr;
+        curr = head;
+        while(curr != NULL){
+            temp = (book*)malloc(sizeof(book));
+            // COPY EVERY DATA
+            strcpy(temp->name, curr->name);
+            strcpy(temp->author, curr->author);
+            temp->year = curr->year;
+            strcpy(temp->category, curr->category);
+            strcpy(temp->created, curr->created);
+            strcpy(temp->modified, curr->modified);
+            temp->next = NULL;
+            if (headSortName == NULL){
+                headSortName = temp;
+            }
+            else{
+                book *prev;
+                prev = headSortName;
+                while(prev->next != NULL){
+                    prev = prev->next;
+                }
+                prev->next = temp;
+            }
+            curr = curr->next;
+        }
+        // SORT
+        temp = NULL;
+        bool isSorted = false;
+        while(!isSorted){
+            isSorted = true;
+            curr = headSortName;
+            while(curr->next != NULL){
+                if (strcmp(curr->name, curr->next->name) > 0){
+                    isSorted = false;
+                    temp = (book*)malloc(sizeof(book));
+                    // SAVE TO TEMP
+                    strcpy(temp->name, curr->name);
+                    strcpy(temp->author, curr->author);
+                    temp->year = curr->year;
+                    strcpy(temp->category, curr->category);
+                    strcpy(temp->created, curr->created);
+                    strcpy(temp->modified, curr->modified);
+                    // FIRST SWAP
+                    strcpy(curr->name, curr->next->name);
+                    strcpy(curr->author, curr->next->author);
+                    curr->year = curr->next->year;
+                    strcpy(curr->category, curr->next->category);
+                    strcpy(curr->created, curr->next->created);
+                    strcpy(curr->modified, curr->next->modified);
+                    // SECOND SWAP
+                    strcpy(curr->next->name, temp->name);
+                    strcpy(curr->next->author, temp->author);
+                    curr->next->year = temp->year;
+                    strcpy(curr->next->category, temp->category);
+                    strcpy(curr->next->created, temp->created);
+                    strcpy(curr->next->modified, temp->modified);
+                    // FREE MEMORY
+                    free(temp);
+                    temp = NULL;
+                }
+                curr = curr->next;
+            }
+        }
+        // DISPLAY
+        draw_view_search(headSortName, totalBook, cat);
+    }
+    else{
+        printf("Belum ada buku!\n");
+    }
+}
+
+void lihat_sort_author(){
+    if (totalBook > 0){
+        int cat = 6;
+        // DUPLICATE ALL NODE
+        book *temp, *headSortAuthor;
+        headSortAuthor = NULL;
+
+        book *curr;
+        curr = head;
+        while(curr != NULL){
+            temp = (book*)malloc(sizeof(book));
+            // COPY EVERY DATA
+            strcpy(temp->name, curr->name);
+            strcpy(temp->author, curr->author);
+            temp->year = curr->year;
+            strcpy(temp->category, curr->category);
+            strcpy(temp->created, curr->created);
+            strcpy(temp->modified, curr->modified);
+            temp->next = NULL;
+            if (headSortAuthor == NULL){
+                headSortAuthor = temp;
+            }
+            else{
+                book *prev;
+                prev = headSortAuthor;
+                while(prev->next != NULL){
+                    prev = prev->next;
+                }
+                prev->next = temp;
+            }
+            curr = curr->next;
+        }
+        // SORT
+        temp = NULL;
+        bool isSorted = false;
+        while(!isSorted){
+            isSorted = true;
+            curr = headSortAuthor;
+            while(curr->next != NULL){
+                if (strcmp(curr->author, curr->next->author) > 0){
+                    isSorted = false;
+                    temp = (book*)malloc(sizeof(book));
+                    // SAVE TO TEMP
+                    strcpy(temp->name, curr->name);
+                    strcpy(temp->author, curr->author);
+                    temp->year = curr->year;
+                    strcpy(temp->category, curr->category);
+                    strcpy(temp->created, curr->created);
+                    strcpy(temp->modified, curr->modified);
+                    // FIRST SWAP
+                    strcpy(curr->name, curr->next->name);
+                    strcpy(curr->author, curr->next->author);
+                    curr->year = curr->next->year;
+                    strcpy(curr->category, curr->next->category);
+                    strcpy(curr->created, curr->next->created);
+                    strcpy(curr->modified, curr->next->modified);
+                    // SECOND SWAP
+                    strcpy(curr->next->name, temp->name);
+                    strcpy(curr->next->author, temp->author);
+                    curr->next->year = temp->year;
+                    strcpy(curr->next->category, temp->category);
+                    strcpy(curr->next->created, temp->created);
+                    strcpy(curr->next->modified, temp->modified);
+                    // FREE MEMORY
+                    free(temp);
+                    temp = NULL;
+                }
+                curr = curr->next;
+            }
+        }
+        // DISPLAY
+        draw_view_search(headSortAuthor, totalBook, cat);
+    }
+    else{
+        printf("Belum ada buku!\n");
+    }
+}
+
+void lihat_sort_year(){
+    if (totalBook > 0){
+        int cat = 7;
+        // DUPLICATE ALL NODE
+        book *temp, *headSortYear;
+        headSortYear = NULL;
+
+        book *curr;
+        curr = head;
+        while(curr != NULL){
+            temp = (book*)malloc(sizeof(book));
+            // COPY EVERY DATA
+            strcpy(temp->name, curr->name);
+            strcpy(temp->author, curr->author);
+            temp->year = curr->year;
+            strcpy(temp->category, curr->category);
+            strcpy(temp->created, curr->created);
+            strcpy(temp->modified, curr->modified);
+            temp->next = NULL;
+            if (headSortYear == NULL){
+                headSortYear = temp;
+            }
+            else{
+                book *prev;
+                prev = headSortYear;
+                while(prev->next != NULL){
+                    prev = prev->next;
+                }
+                prev->next = temp;
+            }
+            curr = curr->next;
+        }
+        // SORT
+        temp = NULL;
+        bool isSorted = false;
+        while(!isSorted){
+            isSorted = true;
+            curr = headSortYear;
+            while(curr->next != NULL){
+                if (curr->year > curr->next->year){
+                    isSorted = false;
+                    temp = (book*)malloc(sizeof(book));
+                    // SAVE TO TEMP
+                    strcpy(temp->name, curr->name);
+                    strcpy(temp->author, curr->author);
+                    temp->year = curr->year;
+                    strcpy(temp->category, curr->category);
+                    strcpy(temp->created, curr->created);
+                    strcpy(temp->modified, curr->modified);
+                    // FIRST SWAP
+                    strcpy(curr->name, curr->next->name);
+                    strcpy(curr->author, curr->next->author);
+                    curr->year = curr->next->year;
+                    strcpy(curr->category, curr->next->category);
+                    strcpy(curr->created, curr->next->created);
+                    strcpy(curr->modified, curr->next->modified);
+                    // SECOND SWAP
+                    strcpy(curr->next->name, temp->name);
+                    strcpy(curr->next->author, temp->author);
+                    curr->next->year = temp->year;
+                    strcpy(curr->next->category, temp->category);
+                    strcpy(curr->next->created, temp->created);
+                    strcpy(curr->next->modified, temp->modified);
+                    // FREE MEMORY
+                    free(temp);
+                    temp = NULL;
+                }
+                curr = curr->next;
+            }
+        }
+        // DISPLAY
+        draw_view_search(headSortYear, totalBook, cat);
+    }
+    else{
+        printf("Belum ada buku!\n");
+    }
+}
+
+void lihat_sort_cat(){
+    if (totalBook > 0){
+        int cat = 8;
+        // DUPLICATE ALL NODE
+        book *temp, *headSortCat;
+        headSortCat = NULL;
+
+        book *curr;
+        curr = head;
+        while(curr != NULL){
+            temp = (book*)malloc(sizeof(book));
+            // COPY EVERY DATA
+            strcpy(temp->name, curr->name);
+            strcpy(temp->author, curr->author);
+            temp->year = curr->year;
+            strcpy(temp->category, curr->category);
+            strcpy(temp->created, curr->created);
+            strcpy(temp->modified, curr->modified);
+            temp->next = NULL;
+            if (headSortCat == NULL){
+                headSortCat = temp;
+            }
+            else{
+                book *prev;
+                prev = headSortCat;
+                while(prev->next != NULL){
+                    prev = prev->next;
+                }
+                prev->next = temp;
+            }
+            curr = curr->next;
+        }
+        // SORT
+        temp = NULL;
+        bool isSorted = false;
+        while(!isSorted){
+            isSorted = true;
+            curr = headSortCat;
+            while(curr->next != NULL){
+                if (strcmp(curr->category, curr->next->category) > 0){
+                    isSorted = false;
+                    temp = (book*)malloc(sizeof(book));
+                    // SAVE TO TEMP
+                    strcpy(temp->name, curr->name);
+                    strcpy(temp->author, curr->author);
+                    temp->year = curr->year;
+                    strcpy(temp->category, curr->category);
+                    strcpy(temp->created, curr->created);
+                    strcpy(temp->modified, curr->modified);
+                    // FIRST SWAP
+                    strcpy(curr->name, curr->next->name);
+                    strcpy(curr->author, curr->next->author);
+                    curr->year = curr->next->year;
+                    strcpy(curr->category, curr->next->category);
+                    strcpy(curr->created, curr->next->created);
+                    strcpy(curr->modified, curr->next->modified);
+                    // SECOND SWAP
+                    strcpy(curr->next->name, temp->name);
+                    strcpy(curr->next->author, temp->author);
+                    curr->next->year = temp->year;
+                    strcpy(curr->next->category, temp->category);
+                    strcpy(curr->next->created, temp->created);
+                    strcpy(curr->next->modified, temp->modified);
+                    // FREE MEMORY
+                    free(temp);
+                    temp = NULL;
+                }
+                curr = curr->next;
+            }
+        }
+        // DISPLAY
+        draw_view_search(headSortCat, totalBook, cat);
+    }
+    else{
+        printf("Belum ada buku!\n");
     }
 }

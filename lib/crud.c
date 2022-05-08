@@ -1,5 +1,12 @@
 #include "crud.h"
 
+extern book *b, *head;
+
+extern int totalBook;
+
+extern time_t rawtime;
+extern struct tm *timeInfo;
+
 char tempName[100], tempAuthor[100], tempCategory[100], tempCreated[100], tempModified[100], tempChYear;
 
 void clearScreen(){

@@ -161,18 +161,18 @@ int main(){
                                         break;
                                     case 2:
                                         // AUTHOR SORTING
-                                        printf("sort author\n");
-                                        system("pause");
+                                        lihat_sort_author();
+                                        pauseScreen();
                                         break;
                                     case 3:
                                         // PUBLICATION DATE SORTING
-                                        printf("sort year\n");
-                                        system("pause");
+                                        lihat_sort_year();
+                                        pauseScreen();
                                         break;
                                     case 4:
                                         // CATEGORY SORTING
-                                        printf("sort category\n");
-                                        system("pause");
+                                        lihat_sort_cat();
+                                        pauseScreen();
                                         break;
                                     default:
                                         printf("Input harus 0-4!\n");
@@ -207,13 +207,13 @@ int main(){
                                         break;
                                     case 3:
                                         // PUBLICATION DATE SEARCH
-                                        printf("name search\n");
-                                        system("pause");
+                                        lihat_cari_year();
+                                        pauseScreen();
                                         break;
                                     case 4:
                                         // CATEGORY SEARCH
-                                        printf("name search\n");
-                                        system("pause");
+                                        lihat_cari_cat();
+                                        pauseScreen();
                                         break;
                                     default:
                                         printf("Input harus 0-4!\n");

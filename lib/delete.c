@@ -2,13 +2,34 @@
 
 char deleteTarget[100];
 
+COORD pos;
+
 void hapus_data(){
     if (totalBook == 0){
-        printf("ERROR! Belum ada buku!\n");
+        printf("|                                                                   |\n");
+        printf("|  Belum ada buku!                                                  |\n");
+        printf("|                                                                   |\n");
+        printf("|-------------------------------------------------------------------|\n");
     }
     else if (totalBook == 1){
-        printf("Masukkan nama buku yang akan dihapus: ");
+        clearScreen();
+        printf("|-------------------------------------------------------------------|\n");
+        printf("|                                                                   |\n");
+        printf("|                         HAPUS BUKU                                |\n");
+        printf("|                                                                   |\n");
+        printf("|-------------------------------------------------------------------|\n");
+        printf("|                                                                   |\n");
+        printf("|  Nama Buku Yang Akan Dihapus:                                     |\n");
+        printf("|                                                                   |\n");
+        printf("---------------------------------------------------------------------\n");
+        pos.X = 32;
+        pos.Y = 6;
+        SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
         gets(deleteTarget);
+        pos.X = 0;
+        pos.Y = 9;
+        SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
+        fflush(stdin);
         book *curr;
         bool isFound = false;
         curr = head;
@@ -29,16 +50,38 @@ void hapus_data(){
             FILE *f;
             f = fopen("data/book.txt", "w");
             fclose(f);
-            printf("Buku berhasil dihapus!\n");
+            printf("|                                                                   |\n");
+            printf("|  Buku Berhasil Dihapus!                                           |\n");
+            printf("|                                                                   |\n");
+            printf("---------------------------------------------------------------------\n");
         }
         else{
-            printf("Buku yang akan dihapus tidak ditemukan!\n");
+            printf("|                                                                   |\n");
+            printf("|  Buku Tidak Ditemukan!                                            |\n");
+            printf("|                                                                   |\n");
+            printf("---------------------------------------------------------------------\n");
         }
     }
     else{
+        clearScreen();
         // LL OPERATION
-        printf("Masukkan nama buku yang akan dihapus: ");
+        printf("|-------------------------------------------------------------------|\n");
+        printf("|                                                                   |\n");
+        printf("|                         HAPUS BUKU                                |\n");
+        printf("|                                                                   |\n");
+        printf("|-------------------------------------------------------------------|\n");
+        printf("|                                                                   |\n");
+        printf("|  Nama Buku Yang Akan Dihapus:                                     |\n");
+        printf("|                                                                   |\n");
+        printf("---------------------------------------------------------------------\n");
+        pos.X = 32;
+        pos.Y = 6;
+        SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
         gets(deleteTarget);
+        pos.X = 0;
+        pos.Y = 9;
+        SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
+        fflush(stdin);
         book *curr;
         bool isFound = false;
         curr = head;
@@ -86,10 +129,16 @@ void hapus_data(){
                 temp = temp->next;
             }
             fclose(f);
-            printf("Buku berhasil dihapus!\n");
+            printf("|                                                                   |\n");
+            printf("|  Buku Berhasil Dihapus!                                           |\n");
+            printf("|                                                                   |\n");
+            printf("---------------------------------------------------------------------\n");
         }
         else{
-            printf("Buku yang akan dihapus tidak ditemukan!\n");
+            printf("|                                                                   |\n");
+            printf("|  Buku Tidak Ditemukan!                                            |\n");
+            printf("|                                                                   |\n");
+            printf("---------------------------------------------------------------------\n");
         }
     }
 }

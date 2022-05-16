@@ -52,10 +52,31 @@ int main(){
                 do{
                     r1 = true;
                     clearScreen();
-                    printf("0. Kembali\n");
-                    printf("1. Lanjutkan Menambah Buku?\n");
-                    printf("Pilihan Anda: ");
+
+                    printf("|-------------------------------------------------------------------|\n");
+                    printf("|                                                                   |\n");
+                    printf("|                      Ingin tambah buku?                           |\n");
+                    printf("|                                                                   |\n");
+                    printf("|-------------------------------------------------------------------|\n");
+                    printf("|                                                                   |\n");
+                    printf("|                                                                   |\n");
+                    printf("|                     0. Tidak! (Kembali)                           |\n");
+                    printf("|                     1. Ya!    (Lanjut)                            |\n");
+                    printf("|                                                                   |\n");
+                    printf("|                     [PILIHAN ANDA] :                              |\n");
+                    printf("|                                                                   |\n");
+                    printf("|                                                                   |\n");
+                    printf("|                                                                   |\n");
+                    printf("|                                                                   |\n");
+                    printf("---------------------------------------------------------------------\n");
+
+                    pos.X = 39;
+                    pos.Y = 10;
+                    SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
                     scanf("%d", &p2);
+                    pos.X = 0;
+                    pos.Y = 16;
+                    SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
                     fflush(stdin);
                     switch (p2){
                         case 0:
@@ -69,7 +90,10 @@ int main(){
                             pauseScreen();
                             break;
                         default:
-                            printf("Input harus 0-1!\n");
+                            printf("\a|                                                                   |\n");
+                            printf("|                     \033[0;31mInput harus 0-1!\033[0m                              |\n");
+                            printf("|                                                                   |\n");
+                            printf("---------------------------------------------------------------------\n");
                             pauseScreen();
                     }
                 } while (r1);
@@ -78,10 +102,31 @@ int main(){
                 do{
                     r1 = true;
                     clearScreen();
-                    printf("0. Kembali\n");
-                    printf("1. Lanjutkan Edit Buku?\n");
-                    printf("Pilihan Anda: ");
+
+                    printf("|-------------------------------------------------------------------|\n");
+                    printf("|                                                                   |\n");
+                    printf("|                        Ingin edit buku?                           |\n");
+                    printf("|                                                                   |\n");
+                    printf("|-------------------------------------------------------------------|\n");
+                    printf("|                                                                   |\n");
+                    printf("|                                                                   |\n");
+                    printf("|                     0. Tidak! (Kembali)                           |\n");
+                    printf("|                     1. Ya!    (Lanjut)                            |\n");
+                    printf("|                                                                   |\n");
+                    printf("|                     [PILIHAN ANDA] :                              |\n");
+                    printf("|                                                                   |\n");
+                    printf("|                                                                   |\n");
+                    printf("|                                                                   |\n");
+                    printf("|                                                                   |\n");
+                    printf("---------------------------------------------------------------------\n");
+
+                    pos.X = 39;
+                    pos.Y = 10;
+                    SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
                     scanf("%d", &p2);
+                    pos.X = 0;
+                    pos.Y = 16;
+                    SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
                     fflush(stdin);
                     switch (p2){
                         case 0:
@@ -92,7 +137,10 @@ int main(){
                             pauseScreen();
                             break;
                         default:
-                            printf("Input harus 0-1!\n");
+                            printf("\a|                                                                   |\n");
+                            printf("|                     \033[0;31mInput harus 0-1!\033[0m                              |\n");
+                            printf("|                                                                   |\n");
+                            printf("---------------------------------------------------------------------\n");
                             pauseScreen();
                     }
                 } while (r1);
@@ -101,10 +149,31 @@ int main(){
                 do{
                     r1 = true;
                     clearScreen();
-                    printf("0. Kembali\n");
-                    printf("1. Lanjutkan Hapus Buku?\n");
-                    printf("Pilihan Anda: ");
+
+                    printf("|-------------------------------------------------------------------|\n");
+                    printf("|                                                                   |\n");
+                    printf("|                       Ingin hapus buku?                           |\n");
+                    printf("|                                                                   |\n");
+                    printf("|-------------------------------------------------------------------|\n");
+                    printf("|                                                                   |\n");
+                    printf("|                                                                   |\n");
+                    printf("|                     0. Tidak! (Kembali)                           |\n");
+                    printf("|                     1. Ya!    (Lanjut)                            |\n");
+                    printf("|                                                                   |\n");
+                    printf("|                     [PILIHAN ANDA] :                              |\n");
+                    printf("|                                                                   |\n");
+                    printf("|                                                                   |\n");
+                    printf("|                                                                   |\n");
+                    printf("|                                                                   |\n");
+                    printf("---------------------------------------------------------------------\n");
+
+                    pos.X = 39;
+                    pos.Y = 10;
+                    SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
                     scanf("%d", &p2);
+                    pos.X = 0;
+                    pos.Y = 16;
+                    SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
                     fflush(stdin);
                     switch (p2){
                         case 0:
@@ -115,7 +184,10 @@ int main(){
                             pauseScreen();
                             break;
                         default:
-                            printf("Input harus 0-1!\n");
+                            printf("\a|                                                                   |\n");
+                            printf("|                     \033[0;31mInput harus 0-1!\033[0m                              |\n");
+                            printf("|                                                                   |\n");
+                            printf("---------------------------------------------------------------------\n");
                             pauseScreen();
                     }
                 } while (r1);
@@ -124,12 +196,33 @@ int main(){
                 do{
                     r1 = true;
                     clearScreen();
-                    printf("0. Kembali\n");
-                    printf("1. Lihat Biasa\n");
-                    printf("2. Lihat Data Terurut\n");
-                    printf("3. Cari Buku\n");
-                    printf("Pilihan Anda: ");
+
+                    printf("|-------------------------------------------------------------------|\n");
+                    printf("|                                                                   |\n");
+                    printf("|                        Ingin lihat apa?                           |\n");
+                    printf("|                                                                   |\n");
+                    printf("|-------------------------------------------------------------------|\n");
+                    printf("|                                                                   |\n");
+                    printf("|                                                                   |\n");
+                    printf("|                     0. Kembali                                    |\n");
+                    printf("|                     1. Lihat Biasa                                |\n");
+                    printf("|                     2. Lihat Secara Urut                          |\n");
+                    printf("|                     3. Cari Buku                                  |\n");
+                    printf("|                                                                   |\n");
+                    printf("|                     [PILIHAN ANDA] :                              |\n");
+                    printf("|                                                                   |\n");
+                    printf("|                                                                   |\n");
+                    printf("|                                                                   |\n");
+                    printf("|                                                                   |\n");
+                    printf("---------------------------------------------------------------------\n");
+
+                    pos.X = 39;
+                    pos.Y = 12;
+                    SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
                     scanf("%d", &p2);
+                    pos.X = 0;
+                    pos.Y = 18;
+                    SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
                     fflush(stdin);
                     switch (p2){
                         case 0:
@@ -143,14 +236,34 @@ int main(){
                             do{
                                 r2 = true;
                                 system("cls");
-                                printf("0. Kembali\n");
-                                printf("1. Urutkan Berdasarkan Nama Buku\n");
-                                printf("2. Urutkan Berdasarkan Nama Penulis\n");
-                                printf("3. Urutkan Berdasarkan Tahun Terbit\n");
-                                printf("4. Urutkan Berdasarkan Kategori\n");
-                                printf("Pilihan Anda: ");
+
+                                printf("|-------------------------------------------------------------------|\n");
+                                printf("|                                                                   |\n");
+                                printf("|                Ingin urutkan berdasarkan apa?                     |\n");
+                                printf("|                                                                   |\n");
+                                printf("|-------------------------------------------------------------------|\n");
+                                printf("|                                                                   |\n");
+                                printf("|                                                                   |\n");
+                                printf("|                     0. Kembali                                    |\n");
+                                printf("|                     1. Urutkan Berdasarkan Nama Buku              |\n");
+                                printf("|                     2. Urutkan Berdasarkan Nama Penulis           |\n");
+                                printf("|                     3. Urutkan Berdasarkan Tahun Terbit           |\n");
+                                printf("|                     4. Urutkan Berdasarkan Kategori               |\n");
+                                printf("|                                                                   |\n");
+                                printf("|                     [PILIHAN ANDA] :                              |\n");
+                                printf("|                                                                   |\n");
+                                printf("|                                                                   |\n");
+                                printf("|                                                                   |\n");
+                                printf("|                                                                   |\n");
+                                printf("---------------------------------------------------------------------\n");
+                                pos.X = 39;
+                                pos.Y = 13;
+                                SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
                                 scanf("%d", &p3);
                                 fflush(stdin);
+                                pos.X = 0;
+                                pos.Y = 19;
+                                SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
                                 switch (p3){
                                     case 0:
                                         r2 = false;
@@ -175,7 +288,10 @@ int main(){
                                         pauseScreen();
                                         break;
                                     default:
-                                        printf("Input harus 0-4!\n");
+                                        printf("\a|                                                                   |\n");
+                                        printf("|                     \033[0;31mInput harus 0-4!\033[0m                              |\n");
+                                        printf("|                                                                   |\n");
+                                        printf("---------------------------------------------------------------------\n");
                                         pauseScreen();
                                 }
                             } while (r2);
@@ -184,14 +300,34 @@ int main(){
                             do{
                                 r2 = true;
                                 clearScreen();
-                                printf("0. Kembali\n");
-                                printf("1. Cari Nama Buku\n");
-                                printf("2. Cari Nama Penulis\n");
-                                printf("3. Cari Berdasarkan Tahun Terbit\n");
-                                printf("4. Cari Kategori\n");
-                                printf("Pilihan Anda: ");
+
+                                printf("|-------------------------------------------------------------------|\n");
+                                printf("|                                                                   |\n");
+                                printf("|                Buku apa yang ingin anda cari?                     |\n");
+                                printf("|                                                                   |\n");
+                                printf("|-------------------------------------------------------------------|\n");
+                                printf("|                                                                   |\n");
+                                printf("|                                                                   |\n");
+                                printf("|                     0. Kembali                                    |\n");
+                                printf("|                     1. Cari Nama Buku                             |\n");
+                                printf("|                     2. Cari Nama Penulis                          |\n");
+                                printf("|                     3. Cari Tahun Terbit                          |\n");
+                                printf("|                     4. Cari Kategori                              |\n");
+                                printf("|                                                                   |\n");
+                                printf("|                     [PILIHAN ANDA] :                              |\n");
+                                printf("|                                                                   |\n");
+                                printf("|                                                                   |\n");
+                                printf("|                                                                   |\n");
+                                printf("|                                                                   |\n");
+                                printf("---------------------------------------------------------------------\n");
+                                pos.X = 39;
+                                pos.Y = 13;
+                                SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
                                 scanf("%d", &p3);
                                 fflush(stdin);
+                                pos.X = 0;
+                                pos.Y = 19;
+                                SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
                                 switch (p3){
                                     case 0:
                                         r2 = false;
@@ -216,13 +352,19 @@ int main(){
                                         pauseScreen();
                                         break;
                                     default:
-                                        printf("Input harus 0-4!\n");
-                                        system("pause");
+                                        printf("\a|                                                                   |\n");
+                                        printf("|                     \033[0;31mInput harus 0-4!\033[0m                              |\n");
+                                        printf("|                                                                   |\n");
+                                        printf("---------------------------------------------------------------------\n");
+                                        pauseScreen();
                                 }
                             } while (r2);
                             break;
                         default:
-                            printf("Input harus 0-3!\n");
+                            printf("\a|                                                                   |\n");
+                            printf("|                     \033[0;31mInput harus 0-3!\033[0m                              |\n");
+                            printf("|                                                                   |\n");
+                            printf("---------------------------------------------------------------------\n");
                             pauseScreen();
                     }
                 } while (r1);
@@ -235,9 +377,12 @@ int main(){
                 break;
             default:
                 pos.X = 0;
-                pos.Y = 24;
+                pos.Y = 23;
                 SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
-                printf("Input harus 0-5!\n");
+                printf("\a|                                                                   |\n");
+                printf("|                     \033[0;31mInput harus 0-5!\033[0m                              |\n");
+                printf("|                                                                   |\n");
+                printf("---------------------------------------------------------------------\n");
                 pauseScreen();
         }
     } while (repeat);

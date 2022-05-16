@@ -13,7 +13,10 @@ void clearScreen(){
     system("cls");
 }
 void pauseScreen(){
-    printf("Silakan tekan ENTER untuk melanjutkan...\n");
+    printf("|                                                                   |\n");
+    printf("|             Silakan tekan \033[0;32mENTER\033[0m untuk melanjutkan...              |\n");
+    printf("|                                                                   |\n");
+    printf("---------------------------------------------------------------------\n");
     getchar();
 }
 char *timeToStr(struct tm *timeInfo){

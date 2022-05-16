@@ -26,8 +26,8 @@ time_t rawtime;
 struct  tm *timeInfo;
 
 // SFML
-#include "SFML/Graphics.h"
-#include "SFML/Window.h"
+#include <SFML/Graphics.h>
+#include <SFML/Window.h>
 
 // LOCAL HEADER
 #include "create.h"
@@ -35,6 +35,7 @@ struct  tm *timeInfo;
 #include "delete.h"
 #include "view.h"
 #include "windows.h"
+#include "about.h"
 
 // FUNCTIONS
 void clearScreen();

@@ -43,10 +43,9 @@ int main(){
         fflush(stdin);
         switch (pilihan){
             case 0:
-                system("cls");
-                // ABOUT US HERE!!!
-                printf("about us\n");
-                system("pause");
+                clearScreen();
+                view_about();
+                pauseScreen();
                 break;
             case 1:
                 do{
@@ -80,11 +79,9 @@ int main(){
                     fflush(stdin);
                     switch (p2){
                         case 0:
-                            // BACK
                             r1 = false;
                             break;
                         case 1:
-                            // ADDING BOOK FUNCTION
                             b = malloc(sizeof(book));
                             tambah_data(b);
                             pauseScreen();
@@ -235,7 +232,7 @@ int main(){
                         case 2:
                             do{
                                 r2 = true;
-                                system("cls");
+                                clearScreen();
 
                                 printf("|-------------------------------------------------------------------|\n");
                                 printf("|                                                                   |\n");
@@ -273,17 +270,14 @@ int main(){
                                         pauseScreen();
                                         break;
                                     case 2:
-                                        // AUTHOR SORTING
                                         lihat_sort_author();
                                         pauseScreen();
                                         break;
                                     case 3:
-                                        // PUBLICATION DATE SORTING
                                         lihat_sort_year();
                                         pauseScreen();
                                         break;
                                     case 4:
-                                        // CATEGORY SORTING
                                         lihat_sort_cat();
                                         pauseScreen();
                                         break;
@@ -337,17 +331,14 @@ int main(){
                                         pauseScreen();
                                         break;
                                     case 2:
-                                        // AUTHOR SEARCH
                                         lihat_cari_author();
                                         pauseScreen();
                                         break;
                                     case 3:
-                                        // PUBLICATION DATE SEARCH
                                         lihat_cari_year();
                                         pauseScreen();
                                         break;
                                     case 4:
-                                        // CATEGORY SEARCH
                                         lihat_cari_cat();
                                         pauseScreen();
                                         break;

@@ -1,0 +1,9 @@
+# Object files
+*.o
+
+# Executables
+*.exe
+
+# CodeBlocks
+*.depend
+*.layout

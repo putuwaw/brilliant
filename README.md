@@ -7,23 +7,29 @@
   <img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" alt="C">
 </p>
 <p align="center" >
-  Brilliant is console based application with GUI features that able to manage book data.
+  Brilliant is a console-based application with GUI features that can manage book data.
+</p>
+
+## Introducing...
+<p align="center">
+In this modern age, everything went digital. From your ordinary newspaper, advertisements, and even food delivery is now online. You can get everything done just with a touch of your finger. Including books! Brilliant makes it easier for you to access the database full of books.
 </p>
 
 ## Features :bulb:
 
-Using brilliant, you can:
+By using brilliant, you can:
 
--   Create or add book
--   Update book
--   View book in GUI
--   Delete book
+-	Create or add a book and save it into the database
+-	Update the book that you have saved
+-	Inspect the book data in GUI
+-	Delete book
+
 
 ## Technologies :man_technologist:
 
-Brilliant created using:
+Brilliant is created using:
 
--   [C Programming Languange](https://www.open-std.org/jtc1/sc22/wg14/) as the programming languange that we use to make modulation in our project.
+-   [C Programming Language](https://www.open-std.org/jtc1/sc22/wg14/) as the programming language that we use to make modulation in our project.
 -   [CodeBlocks](https://www.codeblocks.org/) as an IDE to develop this project.
 -   [SFML](https://www.sfml-dev.org/) or Simple Fast Multimedia Library as library to serve the GUI.
 
@@ -80,6 +86,7 @@ C:\Program Files\CodeBlocks\csfml\include
 ```
 
 -   Build and run.
+-   And Enjoy!!!
 
 ## Contributors✨
 
@@ -89,6 +96,7 @@ C:\Program Files\CodeBlocks\csfml\include
     <td align="center"><a href="https://github.com/putuwaw"><img src="https://avatars.githubusercontent.com/u/90038606?v=4" width="150px;" alt=""/><br><sub><b>Putu Widyantara</b></sub></td>
     <td align="center"><a href="https://github.com/sugunjenk"><img src="https://avatars.githubusercontent.com/u/102678449?v=4" width="150px;" alt=""/><br><sub><b>Suma Gunawan</b></sub></td>
     <td align="center"><a href="https://github.com/RaindraP"><img src="https://avatars.githubusercontent.com/u/94416844?v=4" width="150px;" alt=""/><br><sub><b>Raindra Pramathana</b></sub></td>
-    <td align="center"><a href="https://github.com/IseKey"><img src="https://avatars.githubusercontent.com/u/102424627?v=4" width="150px;" alt=""/><br><sub><b>Raffly Shaquille</b></sub></td>
+    <td align="center"><a href="https://github.com/IseKey"><img src="https://avatars.githubusercontent.com/u/102424627?v=4" width="150px;" alt=""/><br><sub><b>Rafly Shaquille</b></sub></td>
+      
   </tr>
 </table>

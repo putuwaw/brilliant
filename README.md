@@ -19,17 +19,17 @@ In this modern age, everything went digital. From your ordinary newspaper, adver
 By using brilliant, you can:
 
 -   [x] Create or add a book and save it into the database.
+-   [x] Read or view the book data in GUI.
 -   [x] Update the book that you have saved.
--   [x] Read and view the book data in GUI.
 -   [x] Delete the book data.
 
 ## Technologies 👨‍💻
 
 Brilliant is created using:
 
--   [C](https://www.open-std.org/jtc1/sc22/wg14/) as the programming language that we use to make modulation in our project.
--   [CodeBlocks](https://www.codeblocks.org/) as an IDE to develop this project.
--   [SFML](https://www.sfml-dev.org/) or Simple Fast Multimedia Library as library to serve the GUI.
+-   [C](https://www.open-std.org/jtc1/sc22/wg14/) - C as the programming language that we use to make modulation in our project.
+-   [CodeBlocks](https://www.codeblocks.org/) - CodeBlocks as an IDE to develop this project.
+-   [CSFML](https://www.sfml-dev.org/download/csfml/) - CSFML is the official binding of SFML for the C language as library to serve the GUI.
 
 ## Structure 📂
 
@@ -45,8 +45,9 @@ Brilliant
 ├── lib
 ├── .gitignore
 ├── Brilliant.cbp
-├── main.c
-└── README.md
+├── LICENSE
+├── README.md
+└── main.c
 ```
 
 -   [assets](assets/) contains 2 directories, fonts and images used in the project.
@@ -55,8 +56,9 @@ Brilliant
 -   [lib](lib/) directory containing the headers we created in the program.
 -   [.gitignore](.gitignore) is a file used to exclude some files such as object files (.o) and executable files (.exe).
 -   [Brilliant.cbp](Brilliant.cbp) is CodeBlocks project file that contains information about the project.
--   [main.c](main.c) is the main function in the file.
+-   [LICENSE](LICENSE) is a file containing the licenses we use in the project.
 -   [README.md](README.md) is the file you are reading now, containing additional information about the project.
+-   [main.c](main.c) is the main function in the file.
 
 ## Requirements 📦
 
@@ -75,8 +77,8 @@ C:\Program Files\CodeBlocks\csfml
 -   Link libraries in CodeBlocks:
 
 ```
-  csfml-graphics-2
-  csmfl-window-2
+csfml-graphics-2
+csmfl-window-2
 ```
 
 -   Add compiler search directories:
@@ -92,9 +94,9 @@ C:\Program Files\CodeBlocks\csfml\include
 Let's take some sneak peek about our project.
 
 <div align="center">
-  <img src="doc/doc_main.png" width="1280" height="720">
-  <img src="doc/doc_about.png" width="1280" height="720">
-  <img src="doc/doc_view.png" width="1280" height="720">
+  <img src="doc/doc_main.png" width="640" height="360">
+  <img src="doc/doc_about.png" width="640" height="360">
+  <img src="doc/doc_view.png" width="640" height="360">
 </div>
 
 ## Contributors ✨
